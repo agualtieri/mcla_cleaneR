@@ -15,34 +15,12 @@ a1_list,a1_4,Migrants,
 a1_list,a1_5,Returnees,
 a7_list,a7_1,Remote Interview,
 a7_list,a7_2,Face to Face Interview,
-b2_list,b2_yemeni_a1_1,Yemeni,a1_1
-b2_list,b2_djiboutian_a1_1,Djiboutian,a1_1
-b2_list,b2_somali_a1_1,Somali,a1_1
-b2_list,b2_ethiopian  _a1_1,Ethiopian  ,a1_1
-b2_list,b2_eritrean_a1_1,Eritrean,a1_1
-b2_list,b2_other_a1_1,"Other, specify",a1_1
-b2_list,b2_djiboutian_a1_2,Djiboutian,a1_2
-b2_list,b2_somali_a1_2,Somali,a1_2
-b2_list,b2_ethiopian  _a1_2,Ethiopian  ,a1_2
-b2_list,b2_eritrean_a1_2,Eritrean,a1_2
-b2_list,b2_other_a1_2,"Other, specify",a1_2
-b2_list,b2_yemeni_a1_3,Yemeni,a1_3
-b2_list,b2_djiboutian_a1_3,Djiboutian,a1_3
-b2_list,b2_somali_a1_3,Somali,a1_3
-b2_list,b2_ethiopian  _a1_3,Ethiopian  ,a1_3
-b2_list,b2_eritrean_a1_3,Eritrean,a1_3
-b2_list,b2_other_a1_3,"Other, specify",a1_3
-b2_list,b2_djiboutian_a1_4,Djiboutian,a1_4
-b2_list,b2_somali_a1_4,Somali,a1_4
-b2_list,b2_ethiopian  _a1_4,Ethiopian  ,a1_4
-b2_list,b2_eritrean_a1_4,Eritrean,a1_4
-b2_list,b2_other_a1_4,"Other, specify",a1_4
-b2_list,b2_yemeni_a1_5,Yemeni,a1_5
-b2_list,b2_djiboutian_a1_5,Djiboutian,a1_5
-b2_list,b2_somali_a1_5,Somali,a1_5
-b2_list,b2_ethiopian  _a1_5,Ethiopian  ,a1_5
-b2_list,b2_eritrean_a1_5,Eritrean,a1_5
-b2_list,b2_other_a1_5,"Other, specify",a1_5
+b2_list,b2_yemeni,Yemeni,
+b2_list,b2_djiboutian,Djiboutian,
+b2_list,b2_somali,Somali,
+b2_list,b2_ethiopian  ,Ethiopian  ,
+b2_list,b2_eritrean,Eritrean,
+b2_list,b2_other,"Other, specify",
 b4_list,b4_1,Married,
 b4_list,b4_2,Single,
 b4_list,b4_3,Divorced,
@@ -86,11 +64,6 @@ b71_emp_list,b71_emp_4,Industry,
 b71_emp_list,b71_emp_5,Trade,
 b71_emp_list,b71_emp_6,Finance/ Insurance,
 b71_emp_list,b71_emp_7,Public/ security/ official,
-b71_emp_list,b71_emp_8,Construction,
-b71_emp_list,b71_emp_9,"Service industry (janirtor, waiter, etc.)",
-b71_emp_list,b71_emp_10,"Vocational (electrician, plumber)",
-b71_emp_list,b71_emp_11,"Teacher, lawyer, doctor, engineer",
-b71_emp_list,b71_emp_12,Taxi or truck driver,
 b72_dif_list,b71_dif_1,No difficulty,
 b72_dif_list,b71_dif_2,Some difficulty,
 b72_dif_list,b71_dif_3,A lot of difficulty,
@@ -110,8 +83,7 @@ b10_liv_list,b71_liv_2,Away receiving medical treatment,
 b10_liv_list,b71_liv_3,Displaced,
 b10_liv_list,b71_liv_4,Vacation,
 b10_liv_list,b71_liv_5,Left Yemen,
-b10_liv_list,b10_other,Other (please specify),
-c1_list,c1_1,Once or Twice,
+c1_list,c1_1,OnceTwice,
 c1_list,c1_2,Three times,
 c1_list,c1_3,More than three times,
 c1_list,c1_4,I do not want to answer,
@@ -152,49 +124,15 @@ c7_list,c7_7,Movement restriction,
 c7_list,c7_8,Deportation,
 c7_list,c7_9,I don?t know,
 c7_list,c7_10,I don?t want to answer,
-c8_list,c8_1_a1_1,Provision of humanitarian assistance_a1_1,a1_1
-c8_list,c8_2_a1_1,Affordable accommodation costs_a1_1,a1_1
-c8_list,c8_3_a1_1,Availability of basic services_a1_1,a1_1
-c8_list,c8_4_a1_1,Availability of livelihood (source of income) opportunities_a1_1,a1_1
-c8_list,c8_5_a1_1,Security_a1_1,a1_1
-c8_list,c8_6_a1_1,Presence of family or friends_a1_1,a1_1
-c8_list,c8_8_a1_1,I don?t know_a1_1,a1_1
-c8_list,c8_9_a1_1,I don?t want to answer_a1_1,a1_1
-c8_list,c8_1_a1_2,Provision of humanitarian assistance_a1_2,a1_2
-c8_list,c8_2_a1_2,Affordable accommodation costs_a1_2,a1_2
-c8_list,c8_3_a1_2,Availability of basic services_a1_2,a1_2
-c8_list,c8_4_a1_2,Availability of livelihood (source of income) opportunities_a1_2,a1_2
-c8_list,c8_5_a1_2,Security_a1_2,a1_2
-c8_list,c8_6_a1_2,Presence of family or friends_a1_2,a1_2
-c8_list,c8_7_a1_2,Transit/temporary base_a1_2,a1_2
-c8_list,c8_8_a1_2,I don?t know_a1_2,a1_2
-c8_list,c8_9_a1_2,I don?t want to answer_a1_2,a1_2
-c8_list,c8_1_a1_3,Provision of humanitarian assistance_a1_3,a1_3
-c8_list,c8_2_a1_3,Affordable accommodation costs_a1_3,a1_3
-c8_list,c8_3_a1_3,Availability of basic services_a1_3,a1_3
-c8_list,c8_4_a1_3,Availability of livelihood (source of income) opportunities_a1_3,a1_3
-c8_list,c8_5_a1_3,Security_a1_3,a1_3
-c8_list,c8_6_a1_3,Presence of family or friends_a1_3,a1_3
-c8_list,c8_7_a1_3,Transit/temporary base_a1_3,a1_3
-c8_list,c8_8_a1_3,I don?t know_a1_3,a1_3
-c8_list,c8_9_a1_3,I don?t want to answer_a1_3,a1_3
-c8_list,c8_1_a1_4,Provision of humanitarian assistance_a1_4,a1_4
-c8_list,c8_2_a1_4,Affordable accommodation costs_a1_4,a1_4
-c8_list,c8_3_a1_4,Availability of basic services_a1_4,a1_4
-c8_list,c8_4_a1_4,Availability of livelihood (source of income) opportunities_a1_4,a1_4
-c8_list,c8_5_a1_4,Security_a1_4,a1_4
-c8_list,c8_6_a1_4,Presence of family or friends_a1_4,a1_4
-c8_list,c8_7_a1_4,Transit/temporary base_a1_4,a1_4
-c8_list,c8_8_a1_4,I don?t know_a1_4,a1_4
-c8_list,c8_9_a1_4,I don?t want to answer_a1_4,a1_4
-c8_list,c8_1_a1_5,Provision of humanitarian assistance_a1_5,a1_5
-c8_list,c8_2_a1_5,Affordable accommodation costs_a1_5,a1_5
-c8_list,c8_3_a1_5,Availability of basic services_a1_5,a1_5
-c8_list,c8_4_a1_5,Availability of livelihood (source of income) opportunities_a1_5,a1_5
-c8_list,c8_5_a1_5,Security_a1_5,a1_5
-c8_list,c8_6_a1_5,Presence of family or friends_a1_5,a1_5
-c8_list,c8_8_a1_5,I don?t know_a1_5,a1_5
-c8_list,c8_9_a1_5,I don?t want to answer_a1_5,a1_5
+c8_list,c8_1,Provision of humanitarian assistance,
+c8_list,c8_2,Affordable accommodation costs,
+c8_list,c8_3,Availability of basic services,
+c8_list,c8_4,Availability of livelihood (source of income) opportunities,
+c8_list,c8_5,Security,
+c8_list,c8_6,Presence of family or friends,
+c8_list,c8_7,"Transit/temporary base (only for migrants, refugees and IDPs)",
+c8_list,c8_8,I don?t know,
+c8_list,c8_9,I don?t want to answer,
 c9_10_list,c9_10_1,"Remain here, voluntarily",
 c9_10_list,c9_10_2,"Remain here, involuntarily (there is no alternative)",
 c9_10_list,c9_10_3,Move to another location within Yemen,
@@ -230,7 +168,7 @@ d2_list,d2_5,At least one member of the HH has access to savings,
 d2_list,d2_6,HH has access to land for agriculture,
 d2_list,d2_7,None of the above statements apply to the household,
 e1b_list,e1b_1,No shelter (Not residing inside a site and/or housing structure),
-e1b_list,e1b_2,House or apartment,
+e1b_list,e1b_2,House of apartment,
 e1b_list,e1b_3,"Makeshift shelter ? typically built from waste and temporary materials (tarpaulins, cardboard, blankets, metal sheeting, tarps, etc.)",
 e1b_list,e1b_4,"Public building (school, station, religious buildings, etc.)",
 e1b_list,e1b_5,Emergency shelter ? a portable shelter with a cover and a structure,
@@ -294,7 +232,6 @@ e10_list,e10_4,Voluntary repatriation,
 e10_list,e10_5,Voluntary humanitarian return,
 e10_list,e10_6,I don?t know,
 e10_list,e10_7,I don?t want to answer,
-e10_list,e10_8,None,
 f1_list,f1_1,Household toilet,
 f1_list,f1_2,Handwashing facility,
 f1_list,f1_3,Containers used for storage and collection,
@@ -392,8 +329,6 @@ f15_list,f15_4,Flooding occurs sometimes (1-2 times in the last 5 years) and dam
 f15_list,f15_5,Flooding occurs sometimes (1-2 times in the last 5 years) and no damage is observed,
 f15_list,f15_6,Almost never,
 f15_list,f15_7,Never,
-f15_list,f15_8,I don?t know,
-f15_list,f15_9,I don?t want to answer,
 g1_list,g1_1,Yes,
 g1_list,g1_2,No,
 g1_list,g1_3,I don?t know,
@@ -460,8 +395,9 @@ g7_list,g7_1,Teachers not regularly present in the classroom,
 g7_list,g7_2,Learning materials,
 g7_list,g7_3,Classrooms not suitable for learning,
 g7_list,g7_4,WASH facilities not available,
-g7_list,g7_5,I do not know,
-g7_list,g7_6,I do not want to answer,
+g7_list,g7_5,"No, not satisfied",
+g7_list,g7_6,I do not know,
+g7_list,g7_7,I do not want to answer,
 h1_list,h1_1,Yes,
 h1_list,h1_2,No,
 h1_list,h1_3,I do not know,
@@ -473,6 +409,7 @@ h2_list,h2_4,Measles,
 h2_list,h2_5,Malaria,
 h2_list,h2_6,Polio (AFP),
 h2_list,h2_8,Pertussis / whooping cough,
+h2_list,h2_9,Diphtheria,
 h2_list,h2_10,Hepatitis,
 h2_list,h2_11,Typhoid,
 h2_list,h2_12,Hypertension,
@@ -499,7 +436,7 @@ h4_list,h4_4,Private clinic,
 h4_list,h4_5,Community health worker,
 h4_list,h4_6,Pharmacy,
 h4_list,h4_7,Traditional medicine facility,
-h4_list,h4_8,No facility accessed,
+h4_list,h4_8,No services accessed,
 h4_list,h4_9,I don?t know,
 h4_list,h4_10,I don?t want to answer,
 h5_6_list,h5_6_1,General services,
@@ -607,7 +544,6 @@ i3_list,i3_7,Local authorities,
 i3_list,i3_8,Police,
 i3_list,i3_9,I don?t know,
 i3_list,i3_10,I don?t want to answer,
-i3_list,i3_11,"None, we don't have anybody to go to/we don't trust anybody with the issue",
 i4_list,i4_1,Psychological,
 i4_list,i4_2,Medical care / health,
 i4_list,i4_3,Livelihoods / rehabilitation,
@@ -667,63 +603,20 @@ j3_list,j3_10,Discrimination from employers due to foreign nationality,
 j3_list,j3_11,Poor health status,
 j3_list,j3_12,"Discrimination from employers due to race, religion, political affiliation, regional variation, etc.",
 j3_list,j3_13,Language barriers,
-j3_list,j3_14,I don?t want to answer,
 j4_list,j4_1,Yes,
 j4_list,j4_2,No,
 j4_list,j4_3,I don?t know,
 j4_list,j4_4,I don?t want to answer,
-j5_list,j5_1_a1_1,The market is often closed_a1_1,a1_1
-j5_list,j5_2_a1_1,The market is damaged_a1_1,a1_1
-j5_list,j5_3_a1_1,The market is too far to walk_a1_1,a1_1
-j5_list,j5_4_a1_1,The market location is unsafe (including harassment and presence of landmines/UXO/airstrikes)_a1_1,a1_1
-j5_list,j5_5_a1_1,There are crossing checkpoints on the way to the market_a1_1,a1_1
-j5_list,j5_6_a1_1,The roads leading to the market are damaged_a1_1,a1_1
-j5_list,j5_7_a1_1,There are no means of transportation to the market_a1_1,a1_1
-j5_list,j5_8_a1_1,We cannot afford transportation costs to the market_a1_1,a1_1
-j5_list,j5_9_a1_1,There are social restrictions on movement_a1_1,a1_1
-j5_list,j5_10_a1_1,I don?t want to answer_a1_1,a1_1
-j5_list,j5_1_a1_3,The market is often closed_a1_3,a1_3
-j5_list,j5_2_a1_3,The market is damaged_a1_3,a1_3
-j5_list,j5_3_a1_3,The market is too far to walk_a1_3,a1_3
-j5_list,j5_4_a1_3,The market location is unsafe (including harassment and presence of landmines/UXO/airstrikes)_a1_3,a1_3
-j5_list,j5_5_a1_3,There are crossing checkpoints on the way to the market_a1_3,a1_3
-j5_list,j5_6_a1_3,The roads leading to the market are damaged_a1_3,a1_3
-j5_list,j5_7_a1_3,There are no means of transportation to the market_a1_3,a1_3
-j5_list,j5_8_a1_3,We cannot afford transportation costs to the market_a1_3,a1_3
-j5_list,j5_9_a1_3,There are social restrictions on movement_a1_3,a1_3
-j5_list,j5_10_a1_3,I don?t want to answer_a1_3,a1_3
-j5_list,j5_1_a1_5,The market is often closed_a1_5,a1_5
-j5_list,j5_2_a1_5,The market is damaged_a1_5,a1_5
-j5_list,j5_3_a1_5,The market is too far to walk_a1_5,a1_5
-j5_list,j5_4_a1_5,The market location is unsafe (including harassment and presence of landmines/UXO/airstrikes)_a1_5,a1_5
-j5_list,j5_5_a1_5,There are crossing checkpoints on the way to the market_a1_5,a1_5
-j5_list,j5_6_a1_5,The roads leading to the market are damaged_a1_5,a1_5
-j5_list,j5_7_a1_5,There are no means of transportation to the market_a1_5,a1_5
-j5_list,j5_8_a1_5,We cannot afford transportation costs to the market_a1_5,a1_5
-j5_list,j5_9_a1_5,There are social restrictions on movement_a1_5,a1_5
-j5_list,j5_10_a1_5,I don?t want to answer_a1_5,a1_5
-j5_list,j5_1_a1_2,The market is often closed_a1_2,a1_2
-j5_list,j5_2_a1_2,The market is damaged_a1_2,a1_2
-j5_list,j5_3_a1_2,The market is too far to walk_a1_2,a1_2
-j5_list,j5_4_a1_2,The market location is unsafe (including harassment and presence of landmines/UXO/airstrikes)_a1_2,a1_2
-j5_list,j5_5_a1_2,There are crossing checkpoints on the way to the market_a1_2,a1_2
-j5_list,j5_6_a1_2,The roads leading to the market are damaged_a1_2,a1_2
-j5_list,j5_7_a1_2,There are no means of transportation to the market_a1_2,a1_2
-j5_list,j5_8_a1_2,We cannot afford transportation costs to the market_a1_2,a1_2
-j5_list,j5_9_a1_2,There are social restrictions on movement_a1_2,a1_2
-j5_list,j5_10_a1_2,Foreigners are not allowed to access local markets (only for migrants and refugees)_a1_2,a1_2
-j5_list,j5_11_a1_2,I don?t want to answer_a1_2,a1_2
-j5_list,j5_1_a1_4,The market is often closed_a1_4,a1_4
-j5_list,j5_2_a1_4,The market is damaged_a1_4,a1_4
-j5_list,j5_3_a1_4,The market is too far to walk_a1_4,a1_4
-j5_list,j5_4_a1_4,The market location is unsafe (including harassment and presence of landmines/UXO/airstrikes)_a1_4,a1_4
-j5_list,j5_5_a1_4,There are crossing checkpoints on the way to the market_a1_4,a1_4
-j5_list,j5_6_a1_4,The roads leading to the market are damaged_a1_4,a1_4
-j5_list,j5_7_a1_4,There are no means of transportation to the market_a1_4,a1_4
-j5_list,j5_8_a1_4,We cannot afford transportation costs to the market_a1_4,a1_4
-j5_list,j5_9_a1_4,There are social restrictions on movement_a1_4,a1_4
-j5_list,j5_10_a1_4,Foreigners are not allowed to access local markets (only for migrants and refugees)_a1_4,a1_4
-j5_list,j5_11_a1_4,I don?t want to answer_a1_4,a1_4
+j5_list,j5_1,The market is often closed,
+j5_list,j5_2,The market is damaged,
+j5_list,j5_3,The market is too far to walk,
+j5_list,j5_4,The market location is unsafe (including harassment and presence of landmines/UXO/airstrikes),
+j5_list,j5_5,There are crossing checkpoints on the way to the market,
+j5_list,j5_6,The roads leading to the market are damaged,
+j5_list,j5_7,There are no means of transportation to the market,
+j5_list,j5_8,We cannot afford transportation costs to the market,
+j5_list,j5_9,There are social restrictions on movement,
+j5_list,j5_10,Foreigners are not allowed to access local markets (only for migrants and refugees),
 j6_list,j6_1,Yes,
 j6_list,j6_2,No,
 j6_list,j6_3,I don?t know,
@@ -742,8 +635,6 @@ j7_list,j7_11,Marriage,
 j7_list,j7_12,Look for alternative income source,
 j7_list,j7_13,Resort to withdraw loans,
 j7_list,j7_14,"Begging, including from children",
-j7_list,j7_15,I don?t know,
-j7_list,j7_16,I don?t want to answer,
 j8_list,j8_1,Yes,
 j8_list,j8_2,No,
 j8_list,j8_3,I don?t know,
