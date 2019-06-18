@@ -174,7 +174,15 @@ fake_dataset <- fake_dataset %>%
 
 
 #### Code if individual is disable or not
-fake_dataset  <- mutate(fake_dataset, check_disable = ifelse(starts_with("check_dis_") == 1, 1, 0))
+fake_dataset <- mutate(fake_dataset, check_disable = ifelse(fake_dataset$check_dis_vision ==1 |
+                                                            fake_dataset$check_dis_hearing == 1 |
+                                                            fake_dataset$check_dis_mobility == 1 |
+                                                            fake_dataset$check_dis_comms == 1 |
+                                                            fake_dataset$check_dis_cognition == 1 |
+                                                            fake_dataset$check_dis_selfcare == 1, 1, 0))
+
+count_disable <- count(fake_dataset, check_disable)
+                                                                      
                                             
 
 
