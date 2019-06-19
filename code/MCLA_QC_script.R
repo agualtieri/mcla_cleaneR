@@ -179,8 +179,7 @@ fake_dataset <- mutate(fake_dataset, check_disable = ifelse(fake_dataset$check_d
                                                             fake_dataset$check_dis_selfcare == 1, 1, 0))
 
 count_disable <- count(fake_dataset, check_disable)
-                                                                      
-                                            
+
 
 ### Displacement dynamics Section - Quality Check
 
