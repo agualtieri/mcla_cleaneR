@@ -15,6 +15,8 @@ source("/code/Issue_table_MCLA_fun.R")
 ## Install packages
 devtools::install_github("mabafaba/xlsformfill", force = T)
 devtools::install_github("mabafaba/composr", force = T)
+devtools::install_github("mabafaba/cleaninginspectoR", force = T)
+devtools::install_github("mabafaba/reachR2", force = T)
 
 require("devtools")
 require("xlsformfill")
@@ -22,8 +24,9 @@ require("cleaninginspectoR")
 require("tidyverse")
 require("readr")
 require("reachR")
-require("xlsx")
+#require("xlsx") #Martin claims this package is problematic, can we just use CSVs? (xlsx won't work on my PC atm)
 require("composr")
+require(dplyr) #useful packaged added -Nara
 
 # Upload kobo tool and fill it with fake data
 # load questionnaire
@@ -78,7 +81,7 @@ write.xlsx(issues_integer_table,
 #will have to append of the data issues to this in various sheets.
 
 
-### Metadata Section - Quality Check
+#################################### Metadata Section - Quality Check########################################################################
 ### To be done when we have real data
 
 
@@ -86,7 +89,7 @@ write.xlsx(issues_integer_table,
 
 
 
-### Demographic Section - Quality Check
+#################################### Demographic Section - Quality Check##################################################################
 
 #### Displacement status and nationality - Refugee and migrants cannot be Yemeni
 fake_dataset <- mutate(fake_dataset, check_nation = ifelse(grepl("yemeni", fake_dataset$B2_Demographics), 1, 0))
@@ -187,41 +190,59 @@ count_disable <- count(fake_dataset, check_disable)
 
 
 
-### Displacement dynamics Section - Quality Check
+#################################### Displacement dynamics Section - Quality Check ####################################
 
 
 
 
-### Priority needs Section - Quality Check
-
-
-
-
-
-### Shelter Section - Quality Check
+#################################### Priority needs Section - Quality Check ###########################################
 
 
 
 
 
-### WASH Section - Quality Check
+#################################### Shelter Section - Quality Check ##################################################
 
 
 
 
-### Health Section - Quality Check
+
+#################################### EDUCATION Section - Quality Check ################################################
+
+#skip this section if there are no children in the HH
+fake_dataset <- mutate(fake_dataset, check_children= ifelse(B715_Age < 25 |B715_Age > 6, 1, 0))
+count_children <- count(fake_dataset, check_children)
+table_children <- fake_dataset %>% #table of HHs with children
+  filter(check_children == 1)%>% 
+  select(index='uuid', Age="B715_Age", contains("_Education"))
+
+#cross check g2 (reasons for not attending school) with h2 (HH members responses in other sections)
+earlyM<- fake_dataset %>%
+  filter(fake_dataset$`G2_Education/g2_4` == 'TRUE') %>% #which children faced childhood marriage
+  select(index='uuid', eduB_marriage=`G2_Education/g2_4` , copingS_marriage=`J7_Livelihood/j7_11`)%>%
+  mutate(earlyM= ifelse(eduB_marriage==copingS_marriage, 1, 0)) # 1 if Marriage as answers to both questions
+
+#make tick of issue
+
+
+#################################### WASH Section - Quality Check #####################################################
 
 
 
 
-### Protection Section - Quality Check
+#################################### Health Section - Quality Check ###################################################
 
 
 
 
-### Livelihoods Section - Quality Check
+#################################### Protection Section - Quality Check ###############################################
 
 
 
 
-### Humanitarian assistanace Section - Quality Check
+#################################### Livelihoods Section - Quality Check ##############################################
+
+
+
+
+#################################### Humanitarian assistanace Section - Quality Check #################################
