@@ -13,17 +13,21 @@ rm(list=ls())
 source("/code/Issue_table_MCLA_fun.R")
 
 ## Install packages
-devtools::install_github("mabafaba/xlsformfill", force = T)
-devtools::install_github("mabafaba/composr", force = T)
+#devtools::install_github("mabafaba/xlsformfill", force = T)
+#devtools::install_github("mabafaba/composr", force = T)
+#devtools::install_github("mabafaba/cleaninginspectoR", force = T)
+#devtools::install_github("mabafaba/reachR2", force = T)
+#devtools::install_github("mabafaba/hypegrammaR", force = T)
 
 require("devtools")
 require("xlsformfill")
 require("cleaninginspectoR")
 require("tidyverse")
 require("readr")
-require("reachR")
-require("xlsx")
+require("reachR2")
 require("composr")
+require("hypegrammaR")
+
 
 # Upload kobo tool and fill it with fake data
 # load questionnaire
@@ -81,11 +85,6 @@ write.xlsx(issues_integer_table,
 ### Metadata Section - Quality Check
 ### To be done when we have real data
 
-
-
-
-
-
 ### Demographic Section - Quality Check
 
 #### Displacement status and nationality - Refugee and migrants cannot be Yemeni
@@ -125,8 +124,6 @@ table_pregnant <- fake_dataset %>% select("uuid", "A1_Metadata", "A2_Metadata", 
 
 
 #### Count individual considered disable
-disable <- c("B72_Vision", "B72_Hearing", "B72_Mobility", "B72_Communication", "B72_Cognition", "B72_SelfCare")
-
 #### Visual disability
 fake_dataset <- fake_dataset %>%
                 new_recoding(source = B72_Vision,
@@ -185,24 +182,57 @@ count_disable <- count(fake_dataset, check_disable)
                                                                       
                                             
 
-
-
 ### Displacement dynamics Section - Quality Check
 
+#### Months since they left they place of origin
+lenght_displacement <- find_outliers(fake_dataset$C5_DisplacementStatus)
 
+#lenght_displacement_group <- fake_dataset %>% group_by(A3_Metadata) %>% find_outliers(C5_DisplacementStatus)
+ 
+#### Displacement matrix - mouvement intention in the short and long term
+table_mouvement_intentions <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "C9_DisplacementStatus", "C10_DisplacementStatus")
 
+table_mouvement_intentions<- mutate(table_mouvement_intentions, check_mouvement = ifelse(table_mouvement_intentions$C9_DisplacementStatus == "c9_10_1" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |  
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_2" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |                                                     
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_3" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |  
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_4" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |   
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_3" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_4" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_3" |   
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_4" , 
+                                                                                         1, 0))
+                                                                                           
+                                                                                  
 
 ### Priority needs Section - Quality Check
 
+#### Check that the first ranked is not a "I don't know" or "I don't want to answer"
+table_priority_needs <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "D1a_PriorityNeeds", "D1b_PriorityNeeds", "D1c_PriorityNeeds")
 
-
-
+table_priority_needs <- mutate(table_priority_needs, check_priority_needs = ifelse(table_priority_needs$D1a_PriorityNeeds == "d_18" | table_priority_needs$D1a_PriorityNeeds == "d_19" |
+                                                                                   table_priority_needs$D1b_PriorityNeeds == table_priority_needs$D1a_PriorityNeeds |
+                                                                                   table_priority_needs$D1c_PriorityNeeds == table_priority_needs$D1b_PriorityNeeds |
+                                                                                   table_priority_needs$D1c_PriorityNeeds == table_priority_needs$D1a_PriorityNeeds, 
+                                                                                   1, 0))
 
 ### Shelter Section - Quality Check
+fake_dataset <- fake_dataset %>%
+                             new_recoding(source = E5_ShelterNFICCCM,
+                                          target = check_shelter_damage) %>%
+                                                   recode_to(1, where.selected.any = "e5_3",
+                                                             otherwise.to = 0,
+                                                             na.to = NA)  %>% end_recoding()
 
 
+table_shelter_issues <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "E1d_ShelterNFICCCM", "E5_ShelterNFICCCM", "check_shelter_damage")
 
+table_shelter_issues <- mutate(table_shelter_issues, check_shelter = ifelse(table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_1" |
+                                                                            table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_2" |
+                                                                            table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_3", 1, 0))
 
+recode_batch
 
 ### WASH Section - Quality Check
 
