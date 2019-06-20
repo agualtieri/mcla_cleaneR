@@ -87,7 +87,6 @@ fake_dataset <- fake_dataset[-c(709, 710, 711, 712, 713)]
 
 
   
-  
 ### Demographic Section - Quality Check
 #### Displacement status and nationality - Refugee and migrants cannot be Yemeni
 fake_dataset <- mutate(fake_dataset, check_nation = ifelse(grepl("yemeni", fake_dataset$B2_Demographics), 1, 0))

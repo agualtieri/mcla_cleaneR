@@ -1,0 +1,11 @@
+check_names,conditions
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_1"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_2"" & C10_DisplacementStatus == ""c9_10_1"" "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_3"" & C10_DisplacementStatus == ""c9_10_1""   "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_4"" & C10_DisplacementStatus == ""c9_10_1""    "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_1"" "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_3"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_4"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_3""    "
+Invalid combination between C9_DisplacementStatus & C10_DisplacmentStatus,"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_4"" "
