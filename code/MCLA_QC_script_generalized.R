@@ -20,35 +20,47 @@ batch_issue_checks<-function(data, condition_table, meta_to_keep = c()){
   
   if(is.data.frame(data)) {
     data <- as.data.frame(data)
-    
+  }
+  
+  if(!is.data.frame(data)) {
+    stop("data must be a dataframe")
   }
   
   if(is.data.frame(condition_table)) {
     condition_table <- as.data.frame(condition_table)  
-  
   }
   
+  if(!is.data.frame(condition_table)) {
+    stop("conditions_table must be a dataframe")
+  }
+  
+  if(is.vector(meta_to_keep)) {
+    meta_to_keep <- as.vector(meta_to_keep)
+    
+  if(!is.vector(meta_to_keep)) {
+    stop("meta_to_keep must be a vector")
+  }
+    
+  }
+  
+  conditions_table <-lapply(conditions_table,as.character) %>% as_tibble
+  
+  data_with_issues <- data %>% recode_batch(tos = rep(1,nrow(conditions_table)),
+                                           wheres = conditions_table$conditions,
+                                           targets = conditions_table$check_names) 
+  
+                                           %>% end_recoding()
   
   
+  unique_targets <- unique(conditions_table$check_names) 
   
-  conditions_table<-lapply(conditions_table,as.character) %>% as_tibble
-  
-  data_with_issues<-data %>% recode_batch(tos = rep(1,nrow(conditions_table)),
-                                      wheres = conditions_table$conditions,
-                                      targets = conditions_table$check_names) %>%
-    end_recoding()
-  
-  
-  unique_targets<-unique(conditions_table$check_names)  
-  data_with_issues[,unique_targets]<-lapply(data_with_issues[,unique_targets],function(x){
-    x[is.na(x)]<-0
+  data_with_issues[,unique_targets] <- lapply(data_with_issues[,unique_targets],
+                                              function(x){x[is.na(x)]<-0
     x
+    
   }) %>% as_tibble
   
-  
-  
   data_with_issues %>% select(c(meta_to_keep,unique_targets))
-  
   
 }
 
