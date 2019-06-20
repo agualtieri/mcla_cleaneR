@@ -47,9 +47,9 @@ fake_dataset <- fake_dataset[-c(709, 710, 711, 712, 713)]
 #########
 
 #Create dataset that pulls all integer questions into a new data.frame we can run a loop through
-kobo_integer_quest<-kobo_questions_v1[kobo_questions_v1[,1]=="integer",]
+#kobo_integer_quest<-kobo_questions_v1[kobo_questions_v1[,1]=="integer",]
 
-issues <- for(i in seq_along(kobo_integer_quest$name)){
+#issues <- for(i in seq_along(kobo_integer_quest$name)){
   x<-kobo_integer_quest$name[i]
   sd_x<-sd(fake_dataset[,x])
   mean_x<-mean(fake_dataset[,x])
@@ -64,20 +64,20 @@ issues <- for(i in seq_along(kobo_integer_quest$name)){
       issues_table_MCLA(fake_dataset,x,j,"outlier") 
     }
   }
-}
+#}
 
 
-issues_integer_table <- find_outliers(select(fake_dataset, "B3y_Demographics", "B3m_Demographics", "B5_Demographics", "B713_YearBorn", "B714_MonthBorn",
-                         "B715_Age", "B9_DemographicsMem", "B10_YearBorn", "B10_MonthBorn", "C5_DisplacementStatus", "F5_WASH", "F7_WASH","H8_Health", "H17_Health"))
+#issues_integer_table <- find_outliers(select(fake_dataset, "B3y_Demographics", "B3m_Demographics", "B5_Demographics", "B713_YearBorn", "B714_MonthBorn",
+                         #"B715_Age", "B9_DemographicsMem", "B10_YearBorn", "B10_MonthBorn", "C5_DisplacementStatus", "F5_WASH", "F7_WASH","H8_Health", "H17_Health"))
 
 
 #write file to part of the issues table sheet
-write.xlsx(issues_integer_table,
-           "/data/Issues/Issues_Table_",sys.date,".csv",
-           sheet="Integer Issues",
-           col.names=T, 
-           row.names=T, 
-           append=F)
+#write.xlsx(issues_integer_table,
+          # "/data/Issues/Issues_Table_",sys.date,".csv",
+          #sheet="Integer Issues",
+          # col.names=T, 
+          # row.names=T, 
+          # append=F)
 
 #will have to append of the data issues to this in various sheets.
 
@@ -85,8 +85,10 @@ write.xlsx(issues_integer_table,
 ### Metadata Section - Quality Check
 ### To be done when we have real data
 
-### Demographic Section - Quality Check
 
+  
+  
+### Demographic Section - Quality Check
 #### Displacement status and nationality - Refugee and migrants cannot be Yemeni
 fake_dataset <- mutate(fake_dataset, check_nation = ifelse(grepl("yemeni", fake_dataset$B2_Demographics), 1, 0))
 count_check_nation <- count(fake_dataset, check_nation)
@@ -202,7 +204,7 @@ table_mouvement_intentions<- mutate(table_mouvement_intentions, check_mouvement 
                                                                                          table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_3" |   
                                                                                          table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_4" , 
                                                                                          1, 0))
-                                                                                           
+count_mouvement_intentions <- count(table_mouvement_intentions, check_mouvement)                                                                                           
                                                                                   
 
 ### Priority needs Section - Quality Check
@@ -215,6 +217,7 @@ table_priority_needs <- mutate(table_priority_needs, check_priority_needs = ifel
                                                                                    table_priority_needs$D1c_PriorityNeeds == table_priority_needs$D1b_PriorityNeeds |
                                                                                    table_priority_needs$D1c_PriorityNeeds == table_priority_needs$D1a_PriorityNeeds, 
                                                                                    1, 0))
+count_priority_neeeds <- count(table_priority_needs, check_priority_needs)
 
 ### Shelter Section - Quality Check
 fake_dataset <- fake_dataset %>%
@@ -231,12 +234,24 @@ table_shelter_issues <- mutate(table_shelter_issues, check_shelter = ifelse(tabl
                                                                             table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_2" |
                                                                             table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_3", 1, 0))
 
-recode_batch
+
+count_shelter_issues <- count(table_shelter_issues, check_shelter)
 
 ### WASH Section - Quality Check
+#### Number of Containers
+WASH_containers <- find_outliers(fake_dataset$F5_WASH)
 
+#### Distance from water source aligned with type of water source
+table_WASH_watercollection <- select(fake_dataset,  "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "F3_WASH", "F6_WASH")
 
+table_WASH_watercollection <- mutate(table_WASH_watercollection, check_WASH = ifelse(table_WASH_watercollection$F3_WASH == "f3_1" & table_WASH_watercollection$F6_WASH == "f6_4" |
+                                                                                     table_WASH_watercollection$F3_WASH == "f3_1" & table_WASH_watercollection$F6_WASH == "f6_5" |
+                                                                                     table_WASH_watercollection$F3_WASH == "f3_2" & table_WASH_watercollection$F6_WASH == "f6_4" |
+                                                                                     table_WASH_watercollection$F3_WASH == "f3_2" & table_WASH_watercollection$F6_WASH == "f6_5" |
+                                                                                     table_WASH_watercollection$F3_WASH == "f3_9" & table_WASH_watercollection$F6_WASH == "f6_4" |
+                                                                                     table_WASH_watercollection$F3_WASH == "f3_1" & table_WASH_watercollection$F6_WASH == "f6_5", 1, 0))
 
+count_watercollection <- count(table_WASH_watercollection, check_WASH)
 
 ### Health Section - Quality Check
 
@@ -249,8 +264,26 @@ recode_batch
 
 
 ### Livelihoods Section - Quality Check
+table_livelihood_needs <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "B724_SectorEmployment", "J10_Livelihood")
 
-
-
+table_livelihood_needs <- mutate(table_livelihood_needs, check_livelihood = ifelse(table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_1" |
+                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_2" |
+                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_3" |
+                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_4" |
+                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_5" |
+                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_6", 1, 0))
+count_livelihhod_needs <- count(table_livelihood_needs, check_livelihood)
 
 ### Humanitarian assistanace Section - Quality Check
+fake_dataset <- fake_dataset %>%
+                             new_recoding(source = L5_HummAssist,
+                                          target = L5_HummAssist_REC) %>%
+                                          recode_to(1, where.selected.any = c("l5_8", "l5_9"),
+                                                    otherwise.to = 0) %>% end_recoding()
+
+
+table_hummassist <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "L5_HummAssist", "L5_HummAssist_REC", "L6_HummAssist", "L7_HummAssist")
+
+table_hummassist <- mutate(table_hummassist, check_hummassist = ifelse(table_hummassist$L5_HummAssist_REC == 1 & table_hummassist$L6_HummAssist != "l6_3" & table_hummassist$L7_HummAssist != "yes", 1, 0))
+
+count_hummassist <- count(table_hummassist, check_hummassist)
