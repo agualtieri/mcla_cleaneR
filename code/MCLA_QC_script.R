@@ -13,10 +13,13 @@ rm(list=ls())
 source("/code/Issue_table_MCLA_fun.R")
 
 ## Install packages
+
 devtools::install_github("mabafaba/xlsformfill", force = T)
 devtools::install_github("mabafaba/composr", force = T)
 devtools::install_github("mabafaba/cleaninginspectoR", force = T)
 devtools::install_github("mabafaba/reachR2", force = T)
+devtools::install_github("mabafaba/hypegrammaR", force = T)
+
 
 require("devtools")
 require("xlsformfill")
@@ -24,9 +27,12 @@ require("cleaninginspectoR")
 require("tidyverse")
 require("readr")
 require("reachR")
-#require("xlsx") #Martin claims this package is problematic, can we just use CSVs? (xlsx won't work on my PC atm)
+require("xlsx")
 require("composr")
-require(dplyr) #useful packaged added -Nara
+require("reachR2")
+require("composr")
+require("hypegrammaR")
+
 
 # Upload kobo tool and fill it with fake data
 # load questionnaire
@@ -84,12 +90,10 @@ write.xlsx(issues_integer_table,
 #################################### Metadata Section - Quality Check########################################################################
 ### To be done when we have real data
 
+########################## Demographic Section - Quality Check##################################################################
 
+### Demographic Section - Quality Check
 
-
-
-
-#################################### Demographic Section - Quality Check##################################################################
 
 #### Displacement status and nationality - Refugee and migrants cannot be Yemeni
 fake_dataset <- mutate(fake_dataset, check_nation = ifelse(grepl("yemeni", fake_dataset$B2_Demographics), 1, 0))
@@ -128,8 +132,6 @@ table_pregnant <- fake_dataset %>% select("uuid", "A1_Metadata", "A2_Metadata", 
 
 
 #### Count individual considered disable
-disable <- c("B72_Vision", "B72_Hearing", "B72_Mobility", "B72_Communication", "B72_Cognition", "B72_SelfCare")
-
 #### Visual disability
 fake_dataset <- fake_dataset %>%
                 new_recoding(source = B72_Vision,
@@ -185,44 +187,159 @@ fake_dataset <- mutate(fake_dataset, check_disable = ifelse(fake_dataset$check_d
                                                             fake_dataset$check_dis_selfcare == 1, 1, 0))
 
 count_disable <- count(fake_dataset, check_disable)
-                                                                      
-                                            
-
 
 
 #################################### Displacement dynamics Section - Quality Check ####################################
 
+#### Months since they left they place of origin
+lenght_displacement <- find_outliers(fake_dataset$C5_DisplacementStatus)
 
+#lenght_displacement_group <- fake_dataset %>% group_by(A3_Metadata) %>% find_outliers(C5_DisplacementStatus)
+ 
+#### Displacement matrix - mouvement intention in the short and long term
+table_mouvement_intentions <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "C9_DisplacementStatus", "C10_DisplacementStatus")
 
+table_mouvement_int
+entions<- mutate(table_mouvement_intentions, check_mouvement = ifelse(table_mouvement_intentions$C9_DisplacementStatus == "c9_10_1" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |  
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_2" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |                                                     
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_3" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |  
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_4" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |   
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_1" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_3" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_4" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_2" |
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_3" |   
+                                                                                         table_mouvement_intentions$C9_DisplacementStatus == "c9_10_5" & table_mouvement_intentions$C10_DisplacementStatus == "c9_10_4" , 
+                                                                                         1, 0))
+                                                                                           
+                                                                                  
 
 #################################### Priority needs Section - Quality Check ###########################################
 
+#### Check that the first ranked is not a "I don't know" or "I don't want to answer"
+table_priority_needs <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "D1a_PriorityNeeds", "D1b_PriorityNeeds", "D1c_PriorityNeeds")
+
+table_priority_needs <- mutate(table_priority_needs, check_priority_needs = ifelse(table_priority_needs$D1a_PriorityNeeds == "d_18" | table_priority_needs$D1a_PriorityNeeds == "d_19" |
+                                                                                   table_priority_needs$D1b_PriorityNeeds == table_priority_needs$D1a_PriorityNeeds |
+                                                                                   table_priority_needs$D1c_PriorityNeeds == table_priority_needs$D1b_PriorityNeeds |
+                                                                                   table_priority_needs$D1c_PriorityNeeds == table_priority_needs$D1a_PriorityNeeds, 
+                                                                                   1, 0))
+
+
+### Shelter Section - Quality Check
+fake_dataset <- fake_dataset %>%
+                             new_recoding(source = E5_ShelterNFICCCM,
+                                          target = check_shelter_damage) %>%
+                                                   recode_to(1, where.selected.any = "e5_3",
+                                                             otherwise.to = 0,
+                                                             na.to = NA)  %>% end_recoding()
 
 
 
+table_shelter_issues <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "E1d_ShelterNFICCCM", "E5_ShelterNFICCCM", "check_shelter_damage")
 
-#################################### Shelter Section - Quality Check ##################################################
+table_shelter_issues <- mutate(table_shelter_issues, check_shelter = ifelse(table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_1" |
+                                                                            table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_2" |
+                                                                            table_shelter_issues$check_shelter_damage == 1 & table_shelter_issues$E1d_ShelterNFICCCM == "e1d_3", 1, 0))
 
-
-
-
+recode_batch
 
 #################################### EDUCATION Section - Quality Check ################################################
 
+##G_MCLA01
 #skip this section if there are no children in the HH
-fake_dataset <- mutate(fake_dataset, check_children= ifelse(B715_Age < 25 |B715_Age > 6, 1, 0))
-count_children <- count(fake_dataset, check_children)
-table_children <- fake_dataset %>% #table of HHs with children
-  filter(check_children == 1)%>% 
-  select(index='uuid', Age="B715_Age", contains("_Education"))
+######################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+G_MCLA01<- fake_dataset %>%
+  filter(`G2_Education/g2_1` == 'TRUE'|`G2_Education/g2_1` == "FALSE") %>% 
+  filter(B715_Age > 25 |B715_Age < 6) %>% #which children arent of school age
+  select('uuid', 
+         varval1=B715_Age , 
+         varval2=`G2_Education/g2_1`)  %>%
+  mutate(IssueCode= "G_MCLA01", 
+         var1= "B715_Age", 
+         var2= "G1_Education")%>%
+  subset(select= c(1,4,5,2,6,3)) #reorder columns
+#NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER IS NOT OF SCHOOL AGE
+
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+##G_MCLA02
 #cross check g2 (reasons for not attending school) with h2 (HH members responses in other sections)
-earlyM<- fake_dataset %>%
-  filter(fake_dataset$`G2_Education/g2_4` == 'TRUE') %>% #which children faced childhood marriage
-  select(index='uuid', eduB_marriage=`G2_Education/g2_4` , copingS_marriage=`J7_Livelihood/j7_11`)%>%
-  mutate(earlyM= ifelse(eduB_marriage==copingS_marriage, 1, 0)) # 1 if Marriage as answers to both questions
+######################################################
 
-#make tick of issue
+#which children faced childhood marriage 
+#but didnt use marriage as coping mechanism
+G_MCLA02_marriage<- fake_dataset %>%
+  filter(fake_dataset$`G2_Education/g2_4` == 'TRUE'& `J7_Livelihood/j7_11`== 'FALSE') %>% 
+  select('uuid', 
+         varval1=`G2_Education/g2_4` , 
+         varval2=`J7_Livelihood/j7_11`)  %>%
+  mutate(IssueCode= "G_MCLA02", 
+         var1= "G2_Education/g2_4", 
+         var2= "J7_Livelihood/j7_11")%>%
+  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+  as_tibble()
+fake_dataset$B721_SchoolEnrolment
+
+#edu health issue reported but not 
+#in health section
+G_MCLA02_illness<- fake_dataset %>%
+  filter(`G2_Education/g2_6` == 'TRUE' & `H10_Health/h10_1` =="FALSE") %>% 
+  select('uuid', 
+         varval1=`G2_Education/g2_6` , 
+         varval2=`H10_Health/h10_1`)  %>%
+  mutate(IssueCode= "G_MCLA02", 
+         var1= "G2_Education/g2_6", 
+         var2= "H10_Health/h10_1")%>%
+  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+  as_tibble()
+
+#Psychological distress was reason for not 
+#attending edu but not as member information
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+G_MCLA02_psych<- fake_dataset %>%
+  filter(`G2_Education/g2_5` == 'TRUE' & B726_PsychologicalAddress =="no") %>% 
+  select('uuid', 
+         varval1=`G2_Education/g2_5` , 
+         varval2=B726_PsychologicalAddress)  %>%
+  mutate(IssueCode= "G_MCLA02", 
+         var1= "G2_Education/g2_5", 
+         var2= "B726_PsychologicalAddress")%>%
+  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+  as_tibble()
+#NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER HAD 'no' TO B726
+
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+G_MCLA02<-rbind(G_MCLA02_marriage, G_MCLA02_illness, G_MCLA02_psych)
+
+
+
+##G_MCLA03
+#cross check G section responded are any member information indicating school attendance?
+######################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+G_MCLA03<- fake_dataset %>%
+  filter(`G2_Education/g2_1` == 'TRUE'|`G2_Education/g2_1` == "FALSE") %>% 
+  filter( B721_SchoolEnrolment =="b71_enr_3") %>% 
+  select('uuid', 
+         varval1=`G2_Education/g2_1` , 
+         varval2=B721_SchoolEnrolment)  %>%
+  mutate(IssueCode= "G_MCLA03", 
+         var1= "G2_Education/g2_1", 
+         var2= "B721_SchoolEnrolment")%>%
+  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+  as_tibble()
+#NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER HAD 'b71_edu_8' TO B721_SchoolEnrolment
+
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 
 #################################### WASH Section - Quality Check #####################################################
@@ -237,9 +354,91 @@ earlyM<- fake_dataset %>%
 
 #################################### Protection Section - Quality Check ###############################################
 
+##I_MCLA01
+#Check that the protection support services selected as available/accessible were not selected as 
+#unavailable/inaccessible in the health questions
+######################################################
+
+#'general health' services
+I_MCLA01_genhealth<- fake_dataset %>%
+  filter(str_detect(H6_Health, pattern="h5_6_1 ")) %>% 
+  filter(str_detect(I5_Protection, pattern="i5_2")|str_detect(I4_Protection, pattern="i4_2")) %>%
+  #values
+  select('uuid',
+         varval1=`H6_Health/h5_6_1` , 
+         varval2=`I5_Protection/i5_2`,
+         varval3=`I4_Protection/i4_2`)  %>%
+  #variables
+  mutate(IssueCode= "I_MCLA01",
+         var1= "H6_Health/h5_6_1", 
+         var2= "I5_Protection/i5_2",
+         var3= "I4_Protection/i4_2") %>%
+  subset(select= c(1,5,6,2,7,3,8,4)) %>% #reorder columns
+  as_tibble()
 
 
+#'mental health' services
+I_MCLA01_mental<- fake_dataset %>%
+  filter(str_detect(H6_Health, pattern="h5_6_7 ")) %>% 
+  filter(str_detect(I5_Protection, pattern="i5_1")|str_detect(I4_Protection, pattern="i4_1")) %>%
+  #values
+  select('uuid',
+         varval1=`H6_Health/h5_6_7` , 
+         varval2=`I5_Protection/i5_1`,
+         varval3=`I4_Protection/i4_1`)  %>%
+  #variables
+  mutate(IssueCode= "I_MCLA01",
+         var1= "H6_Health/h5_6_7", 
+         var2= "I5_Protection/i5_1",
+         var3= "I4_Protection/i4_1") %>%
+  subset(select= c(1,5,6,2,7,3,8,4)) %>% #reorder columns
+  as_tibble()
 
+
+I_MCLA01<-rbind(I_MCLA01_genhealth, I_MCLA01_mental)
+
+##I_MCLA02
+#Check that the protection support services selected as accessed were not selected as 
+#unavailable in the health questions or not available
+######################################################
+
+#'general health' services 
+I_MCLA02_genhealth<- fake_dataset %>%
+  filter(str_detect(H5_Health, pattern="h5_6_1 ")) %>% 
+  filter(str_detect(I5_Protection, pattern="i5_2", negate=TRUE)|str_detect(I4_Protection, pattern="i4_2", negate = TRUE)) %>% 
+  #values
+  select('uuid',                        
+         varval1=`H5_Health/h5_6_1` , 
+         varval2=`I5_Protection/i5_2`,
+         varval3=`I4_Protection/i4_2`) %>%
+  #variables
+  mutate(IssueCode= "I_MCLA02",         
+         var1= "H5_Health/h5_6_1", 
+         var2= "I5_Protection/i5_2",
+         var3= "I4_Protection/i4_2") %>%
+  subset(select= c(1,5,6,2,7,3,8,4)) %>% #reorder columns
+  as_tibble()
+
+
+#'mental health' 
+I_MCLA02_mental<- fake_dataset %>%
+  filter(str_detect(H5_Health, pattern="h5_6_7 ")) %>% 
+  filter(str_detect(I5_Protection, pattern="i5_1", negate=TRUE)|str_detect(I4_Protection, pattern="i4_1", negate=TRUE)) %>% 
+  #values
+  select('uuid',
+         varval1=`H5_Health/h5_6_7` , 
+         varval2=`I5_Protection/i5_1`,
+         varval3=`I4_Protection/i4_1`) %>%
+  #variables
+  mutate(IssueCode= "I_MCLA02",
+         var1= "H5_Health/h5_6_7", 
+         var2= "I5_Protection/i5_1",
+         var3= "I4_Protection/i4_1") %>%
+  subset(select= c(1,5,6,2,7,3,8,4)) %>% #reorder columns
+  as_tibble()
+
+
+I_MCLA02<-rbind(I_MCLA02_genhealth, I_MCLA02_mental)
 #################################### Livelihoods Section - Quality Check ##############################################
 
 
