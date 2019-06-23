@@ -1,0 +1,11 @@
+issue code,variable1 ,variable2,value1,value2
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_1,c9_10_2
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_2,c9_10_1
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_3,c9_10_1
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_4,c9_10_1
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_1
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_3,c9_10_2
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_4,c9_10_2
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_2
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_3
+C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_4
