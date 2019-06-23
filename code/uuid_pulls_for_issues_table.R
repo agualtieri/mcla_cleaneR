@@ -23,3 +23,26 @@ uuid_pull<-function(data, issues){
   }
 }
   
+
+MCLA_outputs<-fucntion(issues){
+  issues$FIX<-0
+  col_order<-c("Governorate",
+               "District",
+               "Subdistrict",
+               "Location",
+               "Enum_ID",
+               "Date",
+               "IssueCode",
+               "var1",
+               "valvar1",
+               "var2",
+               "valvar2",
+               "FIX",
+               "uuid")
+  
+  issues<-issues[,col_order]
+  
+  
+}
+
+
