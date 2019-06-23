@@ -19,7 +19,6 @@ source("/code/Issue_table_MCLA_fun.R")
 #devtools::install_github("mabafaba/reachR2", force = T)
 #devtools::install_github("mabafaba/hypegrammaR", force = T)
 
-require("devtools")
 require("xlsformfill")
 require("cleaninginspectoR")
 require("tidyverse")
@@ -248,7 +247,8 @@ table_WASH_watercollection <- mutate(table_WASH_watercollection, check_WASH = if
                                                                                      table_WASH_watercollection$F3_WASH == "f3_2" & table_WASH_watercollection$F6_WASH == "f6_4" |
                                                                                      table_WASH_watercollection$F3_WASH == "f3_2" & table_WASH_watercollection$F6_WASH == "f6_5" |
                                                                                      table_WASH_watercollection$F3_WASH == "f3_9" & table_WASH_watercollection$F6_WASH == "f6_4" |
-                                                                                     table_WASH_watercollection$F3_WASH == "f3_1" & table_WASH_watercollection$F6_WASH == "f6_5", 1, 0))
+                                                                                     table_WASH_watercollection$F3_WASH == "f3_1" & table_WASH_watercollection$F6_WASH == "f6_5",
+                                                                                     1, 0))
 
 count_watercollection <- count(table_WASH_watercollection, check_WASH)
 
@@ -270,7 +270,9 @@ table_livelihood_needs <- mutate(table_livelihood_needs, check_livelihood = ifel
                                                                                    table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_3" |
                                                                                    table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_4" |
                                                                                    table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_5" |
-                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_6", 1, 0))
+                                                                                   table_livelihood_needs$B724_SectorEmployment != "b71_emp_1" & table_livelihood_needs$J10_Livelihood == "j10_6",
+                                                                                   
+                                                                                   1, 0))
 count_livelihhod_needs <- count(table_livelihood_needs, check_livelihood)
 
 ### Humanitarian assistanace Section - Quality Check
