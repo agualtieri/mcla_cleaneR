@@ -258,8 +258,101 @@ count_shelter_issues <- count(table_shelter_issues, check_shelter)
 #skip this section if there are no children in the HH
 ######################################################
 ##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-=======
-### WASH Section - Quality Check
+ 
+ G_MCLA01<- fake_dataset %>%
+   filter(`G2_Education/g2_1` == 'TRUE'|`G2_Education/g2_1` == "FALSE") %>% 
+   filter(B715_Age > 25 |B715_Age < 6) %>% #which children arent of school age
+   select('uuid', 
+          varval1=B715_Age , 
+          varval2=`G2_Education/g2_1`)  %>%
+   mutate(IssueCode= "G_MCLA01", 
+          var1= "B715_Age", 
+          var2= "G1_Education")%>%
+   subset(select= c(1,4,5,2,6,3)) #reorder columns
+ #NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER IS NOT OF SCHOOL AGE
+ 
+ ##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ ##G_MCLA02
+ #cross check g2 (reasons for not attending school) with h2 (HH members responses in other sections)
+ ######################################################
+ 
+ #which children faced childhood marriage 
+ #but didnt use marriage as coping mechanism
+ G_MCLA02_marriage<- fake_dataset %>%
+   filter(fake_dataset$`G2_Education/g2_4` == 'TRUE'& `J7_Livelihood/j7_11`== 'FALSE') %>% 
+   select('uuid', 
+          varval1=`G2_Education/g2_4` , 
+          varval2=`J7_Livelihood/j7_11`)  %>%
+   mutate(IssueCode= "G_MCLA02", 
+          var1= "G2_Education/g2_4", 
+          var2= "J7_Livelihood/j7_11")%>%
+   subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+   as_tibble()
+ fake_dataset$B721_SchoolEnrolment
+ 
+ #edu health issue reported but not 
+ #in health section
+ G_MCLA02_illness<- fake_dataset %>%
+   filter(`G2_Education/g2_6` == 'TRUE' & `H10_Health/h10_1` =="FALSE") %>% 
+   select('uuid', 
+          varval1=`G2_Education/g2_6` , 
+          varval2=`H10_Health/h10_1`)  %>%
+   mutate(IssueCode= "G_MCLA02", 
+          var1= "G2_Education/g2_6", 
+          var2= "H10_Health/h10_1")%>%
+   subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+   as_tibble()
+ 
+ #Psychological distress was reason for not 
+ #attending edu but not as member information
+ ##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ G_MCLA02_psych<- fake_dataset %>%
+   filter(`G2_Education/g2_5` == 'TRUE' & B726_PsychologicalAddress =="no") %>% 
+   select('uuid', 
+          varval1=`G2_Education/g2_5` , 
+          varval2=B726_PsychologicalAddress)  %>%
+   mutate(IssueCode= "G_MCLA02", 
+          var1= "G2_Education/g2_5", 
+          var2= "B726_PsychologicalAddress")%>%
+   subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+   as_tibble()
+ #NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER HAD 'no' TO B726
+ 
+ ##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ G_MCLA02<-rbind(G_MCLA02_marriage, G_MCLA02_illness, G_MCLA02_psych)
+ 
+ 
+ 
+ ##G_MCLA03
+ #cross check G section responded are any member information indicating school attendance?
+ ######################################################
+ ##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ G_MCLA03<- fake_dataset %>%
+   filter(`G2_Education/g2_1` == 'TRUE'|`G2_Education/g2_1` == "FALSE") %>% 
+   filter( B721_SchoolEnrolment =="b71_enr_3") %>% 
+   select('uuid', 
+          varval1=`G2_Education/g2_1` , 
+          varval2=B721_SchoolEnrolment)  %>%
+   mutate(IssueCode= "G_MCLA03", 
+          var1= "G2_Education/g2_1", 
+          var2= "B721_SchoolEnrolment")%>%
+   subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
+   as_tibble()
+ #NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER HAD 'b71_edu_8' TO B721_SchoolEnrolment
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+#################################### WASH Section - Quality Check #####################################################
 #### Number of Containers
 WASH_containers <- find_outliers(fake_dataset$F5_WASH)
 
@@ -275,107 +368,6 @@ table_WASH_watercollection <- mutate(table_WASH_watercollection, check_WASH = if
                                                                                      1, 0))
 
 count_watercollection <- count(table_WASH_watercollection, check_WASH)
-
-### Health Section - Quality Check
-
-
-
-master
-
-G_MCLA01<- fake_dataset %>%
-  filter(`G2_Education/g2_1` == 'TRUE'|`G2_Education/g2_1` == "FALSE") %>% 
-  filter(B715_Age > 25 |B715_Age < 6) %>% #which children arent of school age
-  select('uuid', 
-         varval1=B715_Age , 
-         varval2=`G2_Education/g2_1`)  %>%
-  mutate(IssueCode= "G_MCLA01", 
-         var1= "B715_Age", 
-         var2= "G1_Education")%>%
-  subset(select= c(1,4,5,2,6,3)) #reorder columns
-#NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER IS NOT OF SCHOOL AGE
-
-##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-master
-##G_MCLA02
-#cross check g2 (reasons for not attending school) with h2 (HH members responses in other sections)
-######################################################
-
-#which children faced childhood marriage 
-#but didnt use marriage as coping mechanism
-G_MCLA02_marriage<- fake_dataset %>%
-  filter(fake_dataset$`G2_Education/g2_4` == 'TRUE'& `J7_Livelihood/j7_11`== 'FALSE') %>% 
-  select('uuid', 
-         varval1=`G2_Education/g2_4` , 
-         varval2=`J7_Livelihood/j7_11`)  %>%
-  mutate(IssueCode= "G_MCLA02", 
-         var1= "G2_Education/g2_4", 
-         var2= "J7_Livelihood/j7_11")%>%
-  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
-  as_tibble()
-fake_dataset$B721_SchoolEnrolment
-
-#edu health issue reported but not 
-#in health section
-G_MCLA02_illness<- fake_dataset %>%
-  filter(`G2_Education/g2_6` == 'TRUE' & `H10_Health/h10_1` =="FALSE") %>% 
-  select('uuid', 
-         varval1=`G2_Education/g2_6` , 
-         varval2=`H10_Health/h10_1`)  %>%
-  mutate(IssueCode= "G_MCLA02", 
-         var1= "G2_Education/g2_6", 
-         var2= "H10_Health/h10_1")%>%
-  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
-  as_tibble()
-
-#Psychological distress was reason for not 
-#attending edu but not as member information
-##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-G_MCLA02_psych<- fake_dataset %>%
-  filter(`G2_Education/g2_5` == 'TRUE' & B726_PsychologicalAddress =="no") %>% 
-  select('uuid', 
-         varval1=`G2_Education/g2_5` , 
-         varval2=B726_PsychologicalAddress)  %>%
-  mutate(IssueCode= "G_MCLA02", 
-         var1= "G2_Education/g2_5", 
-         var2= "B726_PsychologicalAddress")%>%
-  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
-  as_tibble()
-#NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER HAD 'no' TO B726
-
-##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-G_MCLA02<-rbind(G_MCLA02_marriage, G_MCLA02_illness, G_MCLA02_psych)
-
-
-
-##G_MCLA03
-#cross check G section responded are any member information indicating school attendance?
-######################################################
-##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-G_MCLA03<- fake_dataset %>%
-  filter(`G2_Education/g2_1` == 'TRUE'|`G2_Education/g2_1` == "FALSE") %>% 
-  filter( B721_SchoolEnrolment =="b71_enr_3") %>% 
-  select('uuid', 
-         varval1=`G2_Education/g2_1` , 
-         varval2=B721_SchoolEnrolment)  %>%
-  mutate(IssueCode= "G_MCLA03", 
-         var1= "G2_Education/g2_1", 
-         var2= "B721_SchoolEnrolment")%>%
-  subset(select= c(1,4,5,2,6,3))  %>% #reorder columns
-  as_tibble()
-#NEEDS TO BE REWRITTEN TO DETECT IF EVERY MEMBER HAD 'b71_edu_8' TO B721_SchoolEnrolment
-
-##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-#################################### WASH Section - Quality Check #####################################################
-
 
 
 
@@ -471,13 +463,14 @@ I_MCLA02_mental<- fake_dataset %>%
 
 
 I_MCLA02<-rbind(I_MCLA02_genhealth, I_MCLA02_mental)
+
 #################################### Livelihoods Section - Quality Check ##############################################
 
 
 
 
 #################################### Humanitarian assistanace Section - Quality Check #################################
-=======
+
 ### Livelihoods Section - Quality Check
 table_livelihood_needs <- select(fake_dataset, "uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata", "A4_Metadata", "A6_Metadata", "B724_SectorEmployment", "J10_Livelihood")
 

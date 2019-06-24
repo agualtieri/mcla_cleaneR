@@ -1,11 +1,42 @@
-issue code,variable1 ,variable2,value1,value2
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_1,c9_10_2
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_2,c9_10_1
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_3,c9_10_1
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_4,c9_10_1
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_1
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_3,c9_10_2
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_4,c9_10_2
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_2
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_3
-C9_MCLA_01,C9_DisplacementStatus,C10_DisplacementStatus,c9_10_5,c9_10_4
+check_names,conditions
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_1"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_2"" & C10_DisplacementStatus == ""c9_10_1"" "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_3"" & C10_DisplacementStatus == ""c9_10_1""   "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_4"" & C10_DisplacementStatus == ""c9_10_1""    "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_1"" "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_3"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_4"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_2"" "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_3""    "
+Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),"C9_DisplacementStatus == ""c9_10_5"" & C10_DisplacementStatus == ""c9_10_4"" "
+"""I don't know or I don't want to answer"" ranked first in D1a_PriorityNeeds","D1a_PriorityNeeds == ""d_18"" | D1a_PriorityNeeds == ""d_19"""
+"The second ranked most important ""priority needs"" is equal to the one ranked first",D1b_PriorityNeeds == D1a_PriorityNeeds 
+"The third ranked most important ""priority needs"" is equal to the one ranked second",D1c_PriorityNeeds == D1b_PriorityNeeds 
+"The third ranked most important ""priority needs"" is equal to the one ranked first",D1c_PriorityNeeds == D1a_PriorityNeeds
+Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),"F3_WASH == ""f3_1"" & F6_WASH == ""f6_4"" "
+Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),"F3_WASH == ""f3_1"" & F6_WASH == ""f6_5"" "
+Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),"F3_WASH == ""f3_2"" & F6_WASH == ""f6_4"" "
+Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),"F3_WASH == ""f3_2"" & F6_WASH == ""f6_5"" "
+Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),"F3_WASH == ""f3_9"" & F6_WASH == ""f6_4"" "
+Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),"F3_WASH == ""f3_1"" & F6_WASH == ""f6_5"""
+Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),"B724_SectorEmployment != ""b71_emp_1"" & J10_Livelihood == ""j10_1"" "
+Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),"B724_SectorEmployment != ""b71_emp_1"" & J10_Livelihood == ""j10_1"" "
+Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),"B724_SectorEmployment != ""b71_emp_1"" & J10_Livelihood == ""j10_1"" "
+Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),"B724_SectorEmployment != ""b71_emp_1"" & J10_Livelihood == ""j10_1"" "
+Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),"B724_SectorEmployment != ""b71_emp_1"" & J10_Livelihood == ""j10_1"" "
+Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),"B724_SectorEmployment != ""b71_emp_1"" & J10_Livelihood == ""j10_1"" "
+Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),"A1_Metadata == ""a1_2"" | A1_Metadata == ""a1_4"" & B2_Demographics == ""yemeni"""
+Household with at least one unaccompanied child,"B715_Age < 18 & B717_Relationship ==""b71_rel_11"""
+Household with at least one unaccompanied elderly,"B715_Age > 59 & B717_Relationship ==""b71_rel_11"""
+Household with at least one woman pregnant or lactating,"B712_Gender == ""female"" & B715_Age >= 12 & B715_Age <= 59 & B720_Pregnent == ""yes"""
+Household with at least one member affected by visual disability,"B72_Vision == ""b71_dif_3"" | B72_Vision == ""b71_dif_4"""
+Household with at least one member affected by hearing disability,"B72_Hearing == ""b71_dif_3"" | B72_Hearing == ""b71_dif_4"""
+Household with at least one member affected by mobility disability,"B72_Mobility == ""b71_dif_3"" | B72_Mobility == ""b71_dif_4"""
+Household with at least one member affected by communication disability,"B72_Communication == ""b71_dif_3"" | B72_Communication == ""b71_dif_4"""
+Household with at least one member affected by cognitive disability,"B72_Cognition == ""b71_dif_3"" | B72_Cognition == ""b71_dif_4"""
+Household with at least one member affected by self care disability,"B72_SelfCare == ""b71_dif_3"" | B72_SelfCare == ""b71_dif_4"""
+Household with at least one member holding at least one type of disability,"B72_Vision == ""b71_dif_3"" | B72_Vision == ""b71_dif_4"" | B72_Hearing == ""b71_dif_3"" | B72_Hearing == ""b71_dif_4"" | B72_Mobility == ""b71_dif_3"" | B72_Mobility == ""b71_dif_4"" | B72_Communication == ""b71_dif_3"" | B72_Communication == ""b71_dif_4"" | B72_Cognition == ""b71_dif_3"" | B72_Cognition == ""b71_dif_4"" | B72_SelfCare == ""b71_dif_3"" | B72_SelfCare == ""b71_dif_4"""
+"Invalid combination between L5_HummAssist (reason for dissatisfaction with aid), L6_HummAssist (satisfaction with humanitarian workers) and L7_HummAssist (knowledge that assistance should be free)","L5_HummAssist == ""l5_8"" | L5_HummAssist == ""l5_9"" & L6_HummAssist != ""l6_3"" & L7_HummAssist != ""yes"""
+Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),"E5_ShelterNFICCCM == ""e5_3"" & E1d_ShelterNFICCCM == ""e1d_1"""
+Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),"E5_ShelterNFICCCM == ""e5_3"" & E1d_ShelterNFICCCM == ""e1d_2"""
+Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),"E5_ShelterNFICCCM == ""e5_3"" & E1d_ShelterNFICCCM == ""e1d_3"""
