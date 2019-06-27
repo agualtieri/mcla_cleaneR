@@ -1,9 +1,9 @@
 #' Batch quality check of predefined conditions
 #' 
-#' The following package check for the presence of invalid combinations of variables supplied @param condition
+#' The following function checks for the presence of invalid combinations of variables supplied @param condition
 #' within the supplied @param data and produced and editable output that can be used for data quality checks.
 #' 
-#' @param data the dataset you wisch to check for invalid combinations of variables
+#' @param data the dataset you wish to check for invalid combinations of variables
 #' @param condition the set of condition you wish to check
 #' @param tests the set of test related to each condition
 #' @param meta_to_keep a list of metadata you wish to include in the final output
@@ -20,9 +20,7 @@
 #' batch_issue_checks()
 #'
 #' @export
-#' @importFrom grDevices rgb2hsv
-#' @importFrom graphics par plot rect text
-#'
+#
 
 
 
@@ -50,3 +48,4 @@ batch_issue_checks <- function(data, conditions, tests, meta_to_keep = c()){
   data_with_issues %>% select(c(meta_to_keep, unique_targets))
   
 }
+
