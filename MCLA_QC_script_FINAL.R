@@ -60,6 +60,8 @@ cleaning_log <- run_checks_from_dataframe(data = fake_dataset,
 cleaning_log_melt <- quality_checks_log_to_long_format(data = cleaning_log,
                                                        meta_not_to_transform = c("uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata"))
 
+write.csv(cleaning_log_melt, "output/melted_clog.csv")
+
 
 ### Split aggregated transformed cleaning log into a one-row-per-variable
 
@@ -72,8 +74,10 @@ clog_separated <- cSplit(cleaning_log_melt, "quality_checks", sep = "&", "long")
 
 clog_separated <- cSplit(clog_separated, "quality_checks", sep = "|", "long")
 
-## Rename column variable
+## Rename column variable and delete the value column
 clog_separated <- reshape::rename(clog_separated, c(variable = "description"))
+clog_separated$value <- NULL
+write.csv(clog_separated, "output/clog_separated.csv")
 
 ## Next steps:
 # - divide the quality_checks column into two column "variable" and "old value"
