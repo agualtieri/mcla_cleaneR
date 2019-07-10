@@ -26,10 +26,8 @@
 
 batch_issue_checks <- function(data, conditions, tests, meta_to_keep = c()){
   
-  if(!is.data.frame(data)) {stop("data must be a dataframe")}
-  
-  if(!is.vector(meta_to_keep )) {stop("meta_to_keep must be a vector")}
-  
+  assertthat::assert_that(is.data.frame(data))
+  assertthat::assert_that(is.vector(meta_to_keep))
   assertthat::assert_that(is.character(conditions))
   assertthat::assert_that(is.character(tests))
   

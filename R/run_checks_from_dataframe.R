@@ -25,8 +25,6 @@
 #' @export
 
 
-
-
 run_checks_from_dataframe<-function(data, conditions_dataframe, condition.column, test.name.column, meta_to_keep = c()){
   
   if(!is.data.frame(data)) {stop("data must be a dataframe")}
@@ -42,6 +40,6 @@ run_checks_from_dataframe<-function(data, conditions_dataframe, condition.column
   
   conditions <- conditions_dataframe[[condition.column]]
   tests <- conditions_dataframe[[test.name.column]]
-  batch_issue_checks(data,conditions = conditions,tests = tests,meta_to_keep = meta_to_keep)
+  batch_issue_checks(data, conditions = conditions, tests = tests, meta_to_keep = meta_to_keep)
   
 }

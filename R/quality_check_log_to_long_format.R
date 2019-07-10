@@ -30,17 +30,17 @@ quality_checks_log_to_long_format <- function(data, variable_name = "variable" ,
   
   
   ## reshape data into long format using melt
-  data_long <- reshape2::melt(data, variable.name = variable_name, value.name = value_name, id.vars = meta_not_to_transform, na.rm = T) %>% as_tibble
+  data_long <- reshape2::melt(data, variable.name = variable_name, value.name = value_name, id.vars = meta_not_to_transform, na.rm = T)
   
   assertthat::assert_that(is.data.frame(data_long))
   
   ## remove all zeros
-  #data_long <- data_long %>% filter(value_name != 0) %>% as_tibble
+  data_long_nozero <- data_long[apply(data_long != 0, 1, all),]
   
-  data_long[apply(data_long != 0, 1, all),]
-  
-  data_long 
+  data_long_nozero
 }
+
+
 
 
 
