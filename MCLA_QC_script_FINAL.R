@@ -68,21 +68,21 @@ write.csv(cleaning_log_melt, "output/melted_clog.csv")
 ## Add quality checks to dataframe
 cleaning_log_melt$quality_checks <- conditions_list$conditions[match(cleaning_log_melt$variable, conditions_list$check_names)]
 
-## Using the splitstackshape package split the rows - unfortunately it allows for only one separator at a time
-
-clog_separated <- cSplit(cleaning_log_melt, "quality_checks", sep = "&", "long")
-
-clog_separated <- cSplit(clog_separated, "quality_checks", sep = "|", "long")
-
 ## Rename column variable and delete the value column
-clog_separated <- reshape::rename(clog_separated, c(variable = "description"))
+clog_separated <- reshape::rename(cleaning_log_melt, c(variable = "description"))
 clog_separated$value <- NULL
 write.csv(clog_separated, "output/clog_separated.csv")
 
-## Next steps:
-# - divide the quality_checks column into two column "variable" and "old value"
-# - if possible, using koboquest rename all variables and old values using the questinnaire labels to make data cleaning easier for paper forms
-# - add one last column named "new value"
+## Using the splitstackshape package split the rows - unfortunately it allows for only one separator at a time
+
+clog_separated <- cSplit(cleaning_log_melt, "quality_checks", sep = "&", "long")
+clog_separated <- cSplit(clog_separated, "quality_checks", sep = "|", "long")
+
+clog_separated$value <- NULL
+
+
+
+
 
 
 

@@ -1,376 +1,361 @@
-,uuid,A1_Metadata,A2_Metadata,A3_Metadata,variable,value
-5,6742ac93-219f-454241-b2b4be-8d29e46f07ca,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-8,950147b3-a1fe-454c4a-84828f-b3745ce26fad,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-36,146a8c7f-42a3-494344-9d9799-edf1257b84ac,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-39,e10798c2-15fc-424b4a-868a89-786da31c240f,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-40,4319a02c-21ed-464241-8f8886-6ed72a10389f,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-52,bda72e83-716e-4d4941-a5a2af-d3e601bf289c,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-53,91ce7d3b-eb54-44424b-959694-6a175b0ef429,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-65,c0e85427-4b0f-494f48-858683-b2fdc0a79685,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-75,a293cd14-a201-4a4c44-b3b6ba-b1fa0e27d348,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-76,c03d286a-e6a1-414a46-818980-87e04615d29a,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-87,917cf32b-e80b-414946-bdb5bb-49528a06cbef,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-89,8b7e6c4d-1b75-44454b-9a909d-07512e3a4cfd,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-97,a73c154d-716b-4e4046-8e8886-a63e0b84dc72,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-102,48f25d9c-d2e1-494647-828c84-0d54ae736cb9,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-106,1b6927ad-d310-494043-8f8785-86dc7450f1a2,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-109,09e34d12-a759-4e4145-a0a2af-d820937a1f4c,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-119,bf84dc26-50ed-4b4e43-a3ada8-68f7021eb549,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-121,0d9b7fa1-86fb-4a4649-818b82-6bf732c845ea,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-125,9c45061a-3a28-45494d-8f8587-8460b93c175d,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-126,c3a70d96-3b26-49474e-afa0ac-79d8026af1ec,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-127,b41f0863-b62c-464f47-ada1ae-81dcab263754,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-137,705d8f2c-9bc2-4e4042-b2b5bd-d9a23bf160c7,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-140,03f7eb91-56b8-49434d-b5b9b3-5c2b6e8a09d1,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-147,f02d9c83-e2f6-42454f-a8a7a1-15b078afe9c6,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-151,f0e8c217-5cb7-484d43-beb1ba-cd351942760f,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-152,5628ac71-fd98-4b4f43-a3a0a2-e38ad1fb7c02,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-163,bd23e16a-c9ab-414247-848a8f-e296abf15403,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-170,70d65134-c9f1-474c4e-818488-60c5e9d4a2f7,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-175,d3fe1256-6701-414248-beb0b4-7cd4125389eb,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-198,603f198e-13ab-4d4f46-8e8783-576c01b2df83,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-200,4d91aebc-2891-42464b-8a8886-7096ae1b84fc,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-206,6caf970e-706b-4c454a-a1a2a3-d9c1852ea0f7,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-208,806d1b9f-0a24-4b4e44-bebbb9-7fd4ba23608c,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-214,c8675392-c97d-4d404a-abaeaa-e27c18a93bd6,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-219,e01a43dc-8ae2-474b44-b9b0bd-5d91fb408376,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-227,d65f407c-0248-4d4148-a4aeaf-fa7b56e3c81d,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-236,31eca952-71b5-43454d-a1aea4-76c9df05132a,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-240,80913476-491a-4e4942-aba7a4-217f4d8cb530,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-244,7e58f3c9-c92d-4f4143-b1b2bb-e3bdf7520c16,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-262,09b34f5e-564a-4f474a-85838d-61072a5c8fd3,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-266,6e94b82a-6485-44484c-99949a-b234fca07d19,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-271,75b93184-ea93-4c444d-afa7aa-2fca63715b9d,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-272,f6ca7518-ec3d-404e4a-a9afa8-7491ef2385d0,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-279,f56012b7-75c8-414d49-bab7bf-735024ad681b,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-288,aeb0d819-d95b-414e4b-80888a-c9e5314672f0,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-301,7941062d-4a9e-484442-bfb4b0-ed1f782534ab,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-303,32ba1607-cd86-41434b-a0a9a7-56ac14023bdf,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-306,4a0d93c1-8d50-464f40-b9b6be-c594a2bef670,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-309,de86239b-b3e9-494b40-9c909d-46ef9512d830,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-311,1a735640-62ad-4f474a-929596-16b3207d4e9a,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-315,75bf869c-73e6-4b4944-8a8e8b-24806b359e1f,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-322,7a3e0412-f39a-4f474a-a9aca0-ea3850974fb2,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-323,0a51dce6-5409-4a434e-a3adab-e6a4cb932178,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-325,167bc35d-8feb-4f4846-a0afa7-c7e5284690b3,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-328,a9e0d4c5-b428-454f4d-aea2a1-b68e04cf3197,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-346,3fb86509-fe03-444d47-a9afad-09b8cd745a21,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-349,05a28eb6-0d8e-464945-949a90-7a90b45c6fe1,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-351,f2e41897-c53d-4c4245-9c9b92-d7b810693cfe,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-354,98765ae2-017f-4b4c47-939291-b46783eca912,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-363,a09c6e5b-587e-4f464b-bbb7b8-0b48d1e96f72,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-366,74c0a589-71e2-47454e-838485-3856d1492fb7,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-369,2dbca7f3-dc56-474a41-808c87-1d2095e87bfc,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-383,2e7facb8-3d7c-404f49-909d93-c0fed915a37b,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-386,5c8031a4-43d8-474341-9e9497-15db392f6a40,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-393,ba16903e-e436-4c474a-afa0a6-a8c39e51b67f,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-405,e2fc48bd-6d9f-43444f-b7b6b5-03596dca87f4,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-410,3a6d1f28-1c67-464f4c-9f9495-fc3692740dea,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-420,a025d16b-d9c8-4c4644-b6b9b0-b597f138e2ad,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-421,d0c3a76b-27af-414b43-81858f-7e9c403f28ba,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-433,de0682c1-a1e9-474b4c-9a939d-9e74b65df201,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-444,c643af72-c86f-404d41-a2acad-25f6973d1b4c,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-445,ecf28a54-8a41-444248-939799-3b572dc9486e,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-453,f9ab4815-425d-474e40-b7bdba-2478016ac9de,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-460,c673df1a-631c-494d4b-ada9a3-516ba4f2730c,a1_4,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-461,df964c7b-3ae7-494f40-818b84-0f8163c7eda2,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-471,fe93b062-ba5c-4b4a45-8e8985-d9f1bc7a0432,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-478,01873ec5-f8b1-4b4441-acaba4-05cf31a278db,a1_3,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-489,36e749d2-80fd-48434d-a7a9a5-e29c587316bd,a1_1,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-494,4ab80e26-7418-43424a-a9a1a2-e1c5904b83a6,a1_5,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-498,8d1f4a05-5ea4-4e4740-848c81-2589c7bd4f13,a1_2,governorate_pcode,district_pcode,Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions),1
-1014,168240b5-4e2b-414342-9a9d94-2879c35fa610,a1_2,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1024,586c143e-2b4f-434a42-808784-95e12fcd76a0,a1_2,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1034,1694ef8c-98b6-4a4844-8d8e81-0fb4ac693de2,a1_2,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1040,4319a02c-21ed-464241-8f8886-6ed72a10389f,a1_1,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1044,2b7164ea-6354-454e40-8c858e-9c0b7413586d,a1_2,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1053,91ce7d3b-eb54-44424b-959694-6a175b0ef429,a1_3,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1067,a3016b57-0dbc-4e454b-b0babb-7f2d6095e48c,a1_5,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1071,8ba74321-4a1e-4f4e48-838f87-68e73d91ab25,a1_5,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1114,3e604517-a4f6-484c43-959f99-408da63752c1,a1_5,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1127,b41f0863-b62c-464f47-ada1ae-81dcab263754,a1_5,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1154,c0a4fd93-ad17-4c4045-aba8a1-0915eb7c34a2,a1_2,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1172,d8e37caf-9814-454341-bbbab9-8b259613dc0e,a1_3,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1280,b210ca67-23a7-4a4240-a2aea7-d3e52c1baf07,a1_4,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1288,aeb0d819-d95b-414e4b-80888a-c9e5314672f0,a1_5,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1299,64b1a92d-d3b5-454d4e-bfb9b1-2154a0bd7cf3,a1_1,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1304,a829dfce-2068-4a484c-848082-2fe8bd36405c,a1_1,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1308,f907abe3-86bd-46424f-a0aea6-18d749f5e63a,a1_1,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1328,a9e0d4c5-b428-454f4d-aea2a1-b68e04cf3197,a1_1,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1329,ad069134-e748-404644-b3b2b8-9762edf0c38b,a1_3,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1341,6b93e1d8-e796-47464f-ada5a6-27504ab183fc,a1_3,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1365,fb8c3d09-5213-434047-8b8d89-89d01be5ac76,a1_4,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1405,e2fc48bd-6d9f-43444f-b7b6b5-03596dca87f4,a1_4,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1421,d0c3a76b-27af-414b43-81858f-7e9c403f28ba,a1_5,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1422,bf59c368-ad04-4c4f47-9b9c99-86ad4e7c1352,a1_4,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1449,de53b961-ace7-4a4843-9b919e-9c610a3b485f,a1_3,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1458,d71b0c63-78bc-45494f-b8bbbe-1b6c970f45da,a1_2,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1493,f7b5a2ec-9c86-404d49-b0b4b6-73cad892b516,a1_3,governorate_pcode,district_pcode,"The second ranked most important ""priority needs"" is equal to the one ranked first",1
-1504,731a5bfc-b790-47494f-989b90-168a05bef3d2,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1505,6742ac93-219f-454241-b2b4be-8d29e46f07ca,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1506,9e7d13cb-b047-484740-99939d-af4e51b32d78,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1513,ec40d392-b306-444d40-8b8a88-20f1c63a4e9b,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1524,586c143e-2b4f-434a42-808784-95e12fcd76a0,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1537,30f6da5b-8b4f-434d44-bcb1b5-1905c4da6e3f,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1544,2b7164ea-6354-454e40-8c858e-9c0b7413586d,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1581,81f47c90-f491-4a4548-9b9e9f-3abdf05c9672,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1652,5628ac71-fd98-4b4f43-a3a0a2-e38ad1fb7c02,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1688,8c654d37-3c7f-424049-9c9b94-6a37dc4f8012,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1700,4d91aebc-2891-42464b-8a8886-7096ae1b84fc,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1745,7bcf25e9-b716-424a49-84828d-b1560f3a4d72,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1760,ba1054c9-0e39-474f4e-aba7ae-8a9640e7d1bc,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1765,72d0ec9b-c360-434b40-afa4ac-cfda5067eb13,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1786,2c38f76a-18df-4e4b4a-a6aaad-528713cb0d46,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1788,aeb0d819-d95b-414e4b-80888a-c9e5314672f0,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1791,410c3de2-bfe0-424a48-989793-754fb9ac1208,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1853,e4c03758-7ec8-47404b-919499-b50a74ec8d16,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1859,69fdecb2-4209-46424a-8d8689-ec369a21b570,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1880,b17e95f8-c46b-434d4c-979194-b2e7631804ad,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1886,5c8031a4-43d8-474341-9e9497-15db392f6a40,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1906,48ed6c92-d5ef-4b484c-a0acad-e1d872b4c603,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-1954,db96ce38-823d-4b4140-a5aaac-57db139fe46c,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked second",1
-2024,586c143e-2b4f-434a42-808784-95e12fcd76a0,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2026,7098a451-ef52-414740-a6abad-1a463f80c9b5,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2041,7f2b138e-f473-464145-b1b6b5-14ad87ebc903,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2044,2b7164ea-6354-454e40-8c858e-9c0b7413586d,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2054,fdae9b62-2b87-4e484a-8b8a87-24f38ec7156b,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2069,651efbc2-bf85-4b4c49-83878b-f91d8cbe7a46,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2077,c83095db-04c1-474a43-bcb6b9-8ec975d602fb,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2100,78053af1-27f0-414744-a2a8a6-2e6c078afb1d,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2117,b1f86ed0-719b-4f4c48-a7adaf-312c7f06e895,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2133,9837624e-fcb8-4b4440-b1beba-0b5e782a6d93,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2134,49e3f7b6-190b-4d4443-888685-f30b9841ec6d,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2163,bd23e16a-c9ab-414247-848a8f-e296abf15403,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2187,ba48c326-257e-4f4d40-818388-d5e048fb7691,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2204,1bfd39a2-fe19-404d4f-a1afa7-632f9be8d150,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2210,1b6e7f8c-b452-424448-bdb1b6-83afc402b951,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2239,b97a25f1-4ae5-444542-a7a5a8-5f087429d1cb,a1_1,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2254,f85de3a9-095a-4b464d-b3bbb4-bad9f4308157,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2264,ace5f701-521f-48474e-8f8786-9125ca3d4b60,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2281,fda0e528-536e-4b4e4d-9a9f95-2b0a7d6f851e,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2288,aeb0d819-d95b-414e4b-80888a-c9e5314672f0,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2316,9c365a42-1e48-4d4841-969d9a-f46821b57c3d,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2345,74629c38-409b-454740-b3b9bf-d4cf5a3786eb,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2352,413c2f5b-5b28-464d4c-8e8c8a-2f789c0d13b5,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2431,0a12be53-a583-464442-aea5af-0db561278fa9,a1_5,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2438,2ec64b78-2e4c-4f4740-8a8e84-4d6cef3257a9,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2453,f9ab4815-425d-474e40-b7bdba-2478016ac9de,a1_3,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2460,c673df1a-631c-494d4b-ada9a3-516ba4f2730c,a1_4,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2487,8a7643fd-ba98-47424e-a8a2ac-63deb9c7f415,a1_2,governorate_pcode,district_pcode,"The third ranked most important ""priority needs"" is equal to the one ranked first",1
-2502,ce0fa6d4-3dc2-40484d-b4bdb7-fb47852d963e,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2523,a2b8de35-693e-43494a-999c91-6489cdef05b1,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2553,91ce7d3b-eb54-44424b-959694-6a175b0ef429,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2557,a6f84bc5-bf97-44414e-8f898d-0a968c74bf3d,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2570,18eadf53-0db7-4c494e-99939e-b69012345dcf,a1_5,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2576,c03d286a-e6a1-414a46-818980-87e04615d29a,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2584,fb406c25-7b95-4b4947-909f9c-c6f7b21504ea,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2594,8c5ebaf1-f185-4e4341-b8b3ba-6ca451fe7283,a1_5,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2597,a73c154d-716b-4e4046-8e8886-a63e0b84dc72,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2611,9d654720-bcf4-4e4942-b1b8b0-264afd1eb307,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2613,41fe562d-73c8-484449-9c9192-2fc17da45e03,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2625,9c45061a-3a28-45494d-8f8587-8460b93c175d,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2658,a687bd34-856b-434540-8a898c-5ec4f871290b,a1_1,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2690,91506c8d-b062-474942-8e8c81-d3c6f9250ae8,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2697,708436d2-50a6-454247-a8a1ad-812d7be05469,a1_1,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2728,c85a21d7-03d9-4f4d41-a9acab-16452ba8df0c,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2735,c6d80219-e483-404341-aaada4-b2136470c85d,a1_5,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2803,32ba1607-cd86-41434b-a0a9a7-56ac14023bdf,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2810,26a3be01-2af8-44494e-9d979f-5c0be781f3d4,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2820,52f96ba4-a376-434840-91989b-8ca35901b4fe,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2826,be2f6a83-c6a7-424940-a2aeaa-5096e8df21a7,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2828,a9e0d4c5-b428-454f4d-aea2a1-b68e04cf3197,a1_1,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2830,12d0ce67-d62c-464241-94919f-d1bf9eac0325,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2845,74629c38-409b-454740-b3b9bf-d4cf5a3786eb,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2852,413c2f5b-5b28-464d4c-8e8c8a-2f789c0d13b5,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2866,74c0a589-71e2-47454e-838485-3856d1492fb7,a1_3,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2881,95f143d0-19ed-454044-8b8985-05a34769f218,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2882,c14d957f-3f7e-454741-959998-18bc429e0a53,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2889,70fe9561-9672-4e4045-8c8e8f-c751e9f026b8,a1_2,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2898,5c48a01f-2f6e-474e43-b3b5b7-3f46d92b5a1e,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2913,21eb6cd3-fbe1-4d4a4c-868789-4d269c1be803,a1_5,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2921,d0c3a76b-27af-414b43-81858f-7e9c403f28ba,a1_5,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2927,a5692ed3-6a91-464741-a2a7a6-d698b5fe20c3,a1_1,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2935,65b809e2-90f2-434b48-b9b4b5-98e62cb1f40d,a1_4,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2981,d8ec5a36-aec8-4a4e41-aaa7ae-c0da6195e427,a1_1,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-2996,fc02e7ad-26f0-4c464d-a8a9a4-be792a8461f0,a1_5,governorate_pcode,district_pcode,Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water),1
-3032,1fe752ad-f135-404d4f-a1a8ab-8da372eb165c,a1_4,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3046,bad67e32-7b50-444e4c-a8a5aa-b258d6f7309a,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3055,31c80df4-2e4d-47404b-afacab-045d82bef716,a1_1,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3081,81f47c90-f491-4a4548-9b9e9f-3abdf05c9672,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3085,5cb136de-682e-494741-9a9c94-07398fc25adb,a1_3,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3091,5dea74c6-176d-424341-959391-59c04b8ea1f6,a1_5,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3104,d096fc5a-0e14-414c49-979491-27e46dfcb13a,a1_1,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3119,bf84dc26-50ed-4b4e43-a3ada8-68f7021eb549,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3140,03f7eb91-56b8-49434d-b5b9b3-5c2b6e8a09d1,a1_3,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3152,5628ac71-fd98-4b4f43-a3a0a2-e38ad1fb7c02,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3153,4765c81b-e975-4a4c40-b4b7b5-847369f2dc5e,a1_4,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3161,ebf953a4-f409-454948-a3a2a0-f3ec1587dba6,a1_3,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3212,e3a6249d-94df-474e40-888786-3d64f520ba18,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3242,02cea69f-2a3e-454348-82808b-3c26a4b9d5e7,a1_3,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3287,8b5349da-c0a8-40434d-979093-f5c367a94db1,a1_1,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3334,e674f039-9cd6-444a4d-a3aca1-0a41bef53982,a1_5,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3340,05d6c7e1-d4b6-494d4b-858f8e-a023dc465e71,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3347,615b037a-8967-474a4e-a0aaad-e134fbd5287c,a1_2,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3367,bd7512ef-c09d-454840-999c9d-ef9584c2ba70,a1_3,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3371,4da867cb-367e-404f41-8a8785-70614532cd8e,a1_1,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3373,3926ae45-02d9-45434d-949f96-17460583dcf9,a1_5,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3400,c1ab039f-7fbc-444d4c-8d8586-cd9482e35a76,a1_1,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3422,bf59c368-ad04-4c4f47-9b9c99-86ad4e7c1352,a1_4,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3446,31a2596f-02ec-4e4045-babdb8-3c8e47d102b6,a1_3,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3463,56349bf8-f158-4a4442-afa6ac-e83c41a562d0,a1_5,governorate_pcode,district_pcode,Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need),1
-3509,7e0cbd86-be26-4e4047-aea4a2-69a45c701bf3,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3510,175a3cf6-a10c-474049-beb9bf-ba754092ce6f,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3514,168240b5-4e2b-414342-9a9d94-2879c35fa610,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3524,586c143e-2b4f-434a42-808784-95e12fcd76a0,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3527,9aed7f58-7d04-41444c-9a9795-c85713da02b4,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3534,1694ef8c-98b6-4a4844-8d8e81-0fb4ac693de2,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3536,146a8c7f-42a3-494344-9d9799-edf1257b84ac,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3541,7f2b138e-f473-464145-b1b6b5-14ad87ebc903,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3542,49d2f0c3-9a71-4d4b40-86818d-028efda79564,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3543,2a6e4df5-26b7-4f4e43-9b919e-a3e1d6972bc0,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3544,2b7164ea-6354-454e40-8c858e-9c0b7413586d,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3545,283465ad-38cb-4c424b-aba5ac-7e0c32adf958,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3546,bad67e32-7b50-444e4c-a8a5aa-b258d6f7309a,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3547,9cb718da-1ca0-444943-979f9d-aebfd730641c,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3548,c1345f92-0d38-4d444a-848388-d27c5e038b6a,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3550,63c7b5f8-1649-444640-b6bbb5-e6df715abc84,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3552,bda72e83-716e-4d4941-a5a2af-d3e601bf289c,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3556,38c4d50f-6149-484c45-bfb0b8-68fc7204eb53,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3557,a6f84bc5-bf97-44414e-8f898d-0a968c74bf3d,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3573,bdf63549-bf28-4b4347-babcb1-71829c5b034e,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3577,c83095db-04c1-474a43-bcb6b9-8ec975d602fb,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3581,81f47c90-f491-4a4548-9b9e9f-3abdf05c9672,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3583,9cf841be-5db9-4a4041-808284-0d87f12e64c3,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3592,745b19c6-04ac-44434a-87808a-39c6a5bfd741,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3598,e38f467d-5e4c-464c45-beb3bb-b10382cde9af,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3599,0412ef6d-96c5-4f4548-969394-102e38af4d6c,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3600,78053af1-27f0-414744-a2a8a6-2e6c078afb1d,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3605,6219b05c-580d-41454a-95919f-c6d4810f57e9,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3608,b6cd37e1-45db-414d42-959e97-16f2938a57de,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3619,bf84dc26-50ed-4b4e43-a3ada8-68f7021eb549,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3623,e9a802bf-2a3e-474245-a7a0ac-f579ae106843,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3625,9c45061a-3a28-45494d-8f8587-8460b93c175d,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3628,86e9a02f-4623-424e45-b0b4b7-62cf1d78543b,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3635,34a17ef6-fd21-4d464b-a2a6a1-f7dc16320bea,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3636,9eaf2c57-c1d8-424d41-8c8980-2ed1cab70f69,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3638,8db23409-5c93-4d434a-bcbbb8-d46f3eb07a25,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3648,40c537a8-31a0-444745-a4a5a6-e0d35f9ba861,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3652,5628ac71-fd98-4b4f43-a3a0a2-e38ad1fb7c02,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3654,c0a4fd93-ad17-4c4045-aba8a1-0915eb7c34a2,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3657,7d4c06f8-df31-4e4449-868e8a-d08ab576342e,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3659,1c682f74-4eb7-47464f-9c9f9e-f8d20e6b745a,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3660,97d412e3-d5ab-45444f-a9afa4-215daf70639b,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3666,f732e5bd-c412-414e48-a1a4af-5a7182d6cebf,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3668,afb03d71-db31-49424f-bdbab1-be2c3d596180,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3670,70d65134-c9f1-474c4e-818488-60c5e9d4a2f7,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3678,29805e14-db05-4b4945-acaba8-60417253c8ab,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3685,df438719-851f-454a4b-aba1ad-b561a794e832,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3690,91506c8d-b062-474942-8e8c81-d3c6f9250ae8,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3699,ebc1806d-2796-4d4f4e-9a9590-c4169b027f3d,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3701,d7f1c35a-841e-4c4943-a3a0af-2c819073bdf4,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3704,1bfd39a2-fe19-404d4f-a1afa7-632f9be8d150,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3709,7d46092e-4978-404948-aeaaac-4e53c92ad81f,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3712,e3a6249d-94df-474e40-888786-3d64f520ba18,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3715,9bc85310-ace8-494743-82888b-2af710d8e9b5,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3717,7b012c68-6127-4e4745-959f93-ad5f0eb71824,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3720,71cafd23-6480-4d4844-bfbab6-76d92ace34bf,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3723,a03d97cf-7ca6-484a47-81888a-bd0fa346e287,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3727,d65f407c-0248-4d4148-a4aeaf-fa7b56e3c81d,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3729,a8de6104-7b3a-404f44-9c9d94-a9fd5478e132,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3732,46085f72-da56-4e4c4d-9f9694-8d21ca07bf56,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3734,b6c12e7f-a17b-4e454c-bfbbb9-416cbf397205,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3748,78adb95c-874f-4a4e44-bfbcb1-7ea0239fb1cd,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3755,ba0816df-4d9f-4f4b45-8c818a-43ac1e6fb7d8,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3760,ba1054c9-0e39-474f4e-aba7ae-8a9640e7d1bc,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3762,09b34f5e-564a-4f474a-85838d-61072a5c8fd3,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3763,35c86e7b-2da8-4c4d40-87858b-d58192063c4a,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3765,72d0ec9b-c360-434b40-afa4ac-cfda5067eb13,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3769,8d30f724-6157-4a4843-b8b7b9-e8d14fc26597,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3773,140287bd-a04d-4f4e43-a3a2a4-025f37d98eb4,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3778,c4b9f287-c6a3-404b45-a2a7a3-7c6b9d823e54,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3790,7268b345-eb65-494440-9b9394-b31c8597d2a0,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3795,28456cfb-cea1-41464a-92919e-ebdf526c304a,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3796,b06e48cf-b6a1-43404d-80858b-23b01fd87456,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3801,7941062d-4a9e-484442-bfb4b0-ed1f782534ab,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3802,f492a078-317c-404e4b-949298-ac4bf672d531,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3803,32ba1607-cd86-41434b-a0a9a7-56ac14023bdf,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3810,26a3be01-2af8-44494e-9d979f-5c0be781f3d4,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3812,a6028743-9513-464c4a-9a949c-93826d54ac0f,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3814,0f69857a-a351-4d4c42-aca4a9-acbd43f27509,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3817,b9a3627f-c6b5-454341-9b9e97-f394d1762508,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3823,0a51dce6-5409-4a434e-a3adab-e6a4cb932178,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3826,be2f6a83-c6a7-424940-a2aeaa-5096e8df21a7,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3836,a24f1583-cdf2-414c49-8a8f81-9e68c402b175,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3840,05d6c7e1-d4b6-494d4b-858f8e-a023dc465e71,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3847,615b037a-8967-474a4e-a0aaad-e134fbd5287c,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3850,651d27b9-9d08-434441-81838b-b4c2da518f6e,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3852,413c2f5b-5b28-464d4c-8e8c8a-2f789c0d13b5,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3863,a09c6e5b-587e-4f464b-bbb7b8-0b48d1e96f72,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3878,095fead4-4bf5-494542-aea0aa-97f6d4825c3a,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3881,95f143d0-19ed-454044-8b8985-05a34769f218,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3882,c14d957f-3f7e-454741-959998-18bc429e0a53,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3889,70fe9561-9672-4e4045-8c8e8f-c751e9f026b8,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3890,125970cd-0f91-414c4d-a1a8ad-6594fea72d08,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3895,2bfdc934-9423-444d40-a6a9ab-d81795fc4b63,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3901,23ad081b-b7e2-4c4641-b6b0b3-e3c9f12b78a6,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3903,8db73fac-04e1-4d4f40-8d898e-d1eb5c90fa36,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3929,c3065b8e-618b-4a4849-84888f-f658c0a2b4d7,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3933,de0682c1-a1e9-474b4c-9a939d-9e74b65df201,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3941,13ac62d5-c9da-49484b-b0bab1-36b84f9c1a07,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3943,7af56d81-de67-424e46-a8a0a3-c498105be7fd,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3947,1afe9bc2-5396-46474d-838288-582a3901fb6c,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3952,e4801b95-ab57-4b474e-beb6bf-5b20d146ef8c,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3958,d71b0c63-78bc-45494f-b8bbbe-1b6c970f45da,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3961,df964c7b-3ae7-494f40-818b84-0f8163c7eda2,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3962,b68f0e3a-1fba-424148-999f9a-297cdf1e856b,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3979,739605bd-e623-4a4f43-b9b5b3-dfc570a283e4,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3982,c612d083-a826-464b47-9a9c97-1a78b0f53649,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3983,1c76eaf5-854f-424841-93969e-0ec18a45b326,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3987,8a7643fd-ba98-47424e-a8a2ac-63deb9c7f415,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-3998,8d1f4a05-5ea4-4e4740-848c81-2589c7bd4f13,a1_2,governorate_pcode,district_pcode,Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality),1
-4544,2b7164ea-6354-454e40-8c858e-9c0b7413586d,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4560,d57ca684-8e6d-494d41-9d9e99-6cf8054379ad,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4567,a3016b57-0dbc-4e454b-b0babb-7f2d6095e48c,a1_5,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4592,745b19c6-04ac-44434a-87808a-39c6a5bfd741,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4661,ebf953a4-f409-454948-a3a2a0-f3ec1587dba6,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4672,d8e37caf-9814-454341-bbbab9-8b259613dc0e,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4724,769a3df5-2ef8-4b4043-9f9d9c-bce287a6501f,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4761,a8fc32e7-d6f8-414940-a6a5a3-8b4a263e5cfd,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4766,6e94b82a-6485-44484c-99949a-b234fca07d19,a1_5,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4783,2f901c78-fa23-444c43-909f9a-1d936fb2a8ec,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4818,7f318a2d-d572-46494a-b7b6b3-85d412e7960f,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4847,615b037a-8967-474a4e-a0aaad-e134fbd5287c,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-4910,3a6d1f28-1c67-464f4c-9f9495-fc3692740dea,a1_4,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed),1
-5001,0a862f14-81c2-4f4742-b2b3b0-16a2054bf893,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5005,6742ac93-219f-454241-b2b4be-8d29e46f07ca,a1_5,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5015,94da568c-4e18-4f4d4a-828883-f69cb0ea8135,a1_4,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5017,fa28d097-beaf-46494e-b5b0bc-3092af61b854,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5037,30f6da5b-8b4f-434d44-bcb1b5-1905c4da6e3f,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5051,9b27d18c-91eb-434f4c-909c94-9ca46d132bef,a1_5,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5095,b7a6ced2-0584-414546-9e9092-6db8432e7f5a,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5098,e38f467d-5e4c-464c45-beb3bb-b10382cde9af,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5147,f02d9c83-e2f6-42454f-a8a7a1-15b078afe9c6,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5215,9bc85310-ace8-494743-82888b-2af710d8e9b5,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5275,e2574906-920d-454d4f-afa5a6-cdabf8732964,a1_4,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5295,28456cfb-cea1-41464a-92919e-ebdf526c304a,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5395,2bfdc934-9423-444d40-a6a9ab-d81795fc4b63,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5466,bc817053-345f-4f474b-898085-7a60f413db2e,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5470,429c36f8-1037-4b4a4c-b3b0b1-674b2dfc53ea,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5472,fc478531-af90-414e42-8e8b88-e52af90863dc,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5474,3c25ed76-654f-454b47-b1babc-4103ca2b6de5,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5475,e6593c02-d2b5-4e4947-9f909a-83a157e2d964,a1_5,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged),1
-5504,731a5bfc-b790-47494f-989b90-168a05bef3d2,a1_4,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5526,7098a451-ef52-414740-a6abad-1a463f80c9b5,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5577,c83095db-04c1-474a43-bcb6b9-8ec975d602fb,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5593,857ce03f-4173-444648-848b88-07b3542e19fa,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5649,bd571984-67e4-434849-b6b5b7-5973dcfe0ba2,a1_4,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5685,df438719-851f-454a4b-aba1ad-b561a794e832,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5704,1bfd39a2-fe19-404d4f-a1afa7-632f9be8d150,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5708,806d1b9f-0a24-4b4e44-bebbb9-7fd4ba23608c,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5730,5ad07b1c-73af-4c4240-8a8684-db2e0734f186,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5743,3591f8cd-84b1-41454a-a9afa5-7098eca6f15d,a1_3,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5790,7268b345-eb65-494440-9b9394-b31c8597d2a0,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5812,a6028743-9513-464c4a-9a949c-93826d54ac0f,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5871,4da867cb-367e-404f41-8a8785-70614532cd8e,a1_1,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5926,086c791e-c981-434e4a-929a98-6048ec721d35,a1_4,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
-5958,d71b0c63-78bc-45494f-b8bbbe-1b6c970f45da,a1_2,governorate_pcode,district_pcode,Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage),1
+"","uuid","A1_Metadata","A2_Metadata","A3_Metadata","variable","value"
+"6","ad19c2b0-3b51-4f484d-afa5a3-02ad791f83c5","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"24","57b8d6af-ed86-4f4844-848087-4a67d31c92b0","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"25","8396ef05-0d19-4d4c48-969193-da31e69f0874","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"29","4cb051d3-3e24-444e4c-858380-834da92c6fbe","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"37","7234bc69-dc98-434742-868388-fceb16d25347","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"40","df907c82-1a24-494543-8b8683-45ec09da7628","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"48","ec5d182a-d302-404145-a4aca1-0a2e5b698c13","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"54","e86913f0-a45d-4d4048-b0bdb7-865ac13e0d24","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"59","d6ae8043-4f98-4f4345-bdb9b0-46cf5327d108","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"60","b13f4652-89ae-4a4d48-b3bcbd-e14f20c89675","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"81","52408d39-305e-474c42-8c8a8d-9f50c8ba1e23","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"87","7e136bfc-e0a3-434642-999c92-567ca824bfe0","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"92","2fd05c3b-18da-404549-a3a6a5-12af5e804367","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"100","af948275-c471-474a49-a2a5a4-faeb31842759","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"102","40859def-4689-484740-b2bab1-2f759ba10d36","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"104","0e948d6b-45c1-494a48-82898e-9eba6c245180","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"105","13ef9752-c756-4e4d4f-848587-650a29b3d81e","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"118","94b257a3-6f72-4a484c-8b868f-1b8e76d0f92c","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"123","69b5fd08-48d2-4c4b4e-bcb9be-8091eb34c52d","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"126","c23941f7-b9e6-4e4844-9b9499-3076ef8dab59","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"138","e9df02ab-8fac-44474a-a3a0ae-f51309d27ebc","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"146","7bfd2e4c-1ed8-4a4049-8c8b86-8205f1b467d9","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"152","b209a14f-6ad8-444d42-b1bfb8-8c5a0e927d46","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"159","18e5423f-20f6-41474b-b4bcb7-d91b4e753fac","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"161","935e06d2-c476-494744-a2ada9-ef5ad06c17b3","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"162","82c41a0d-a0f1-4c4847-808385-a841bfc3260d","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"170","794c012e-5b86-45464d-898580-5cae48bd2730","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"172","42e597a6-f6c5-41454e-adaba5-9ca16fbde702","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"174","a69dceb0-352f-4c4b4f-a7a0a5-61580aed4b3c","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"179","784931bd-804a-464049-b6bab5-ed84c62ab503","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"184","d0ae89c4-2853-4c4a46-878f86-d8cbf35e492a","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"205","2a79c503-6f59-4f4a4c-a6aea9-9314b567fde2","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"208","512c3b60-e908-424d45-b6beb8-750ed3f8291b","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"219","26dc071e-07ae-4c4f44-9c9a97-2fbed584c069","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"222","f6a5134d-9371-484c40-9c969e-763bdcf58421","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"225","8ae61059-e7d8-4a4346-858682-ef8c0794ab2d","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"234","425eda08-963d-49454a-aaa5af-ce54d360a198","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"246","97b5ec61-0519-4a4449-a3abad-3d9c4f158e76","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"252","07e913f4-a7cb-4b4c4e-a4a1ae-19803b2f5e7c","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"254","80c16b27-5438-40414f-969795-264059ea3df7","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"265","85394701-8059-4a404d-bdb7b9-3df9e04a5b28","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"273","536f2d41-a064-42414a-a9a0a6-769d2b08e13f","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"275","ed31c54b-2861-42464d-808f8b-7a32159ef0bd","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"282","ea213c7b-07cd-48424b-aea4a3-ec93087a51fb","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"288","b08123d9-e3a2-45474b-9e9d93-820137facb4e","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"295","c75b346a-4590-464f4d-a6aaa4-71c65b293afe","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"311","e9b53184-cdb6-494b43-848387-4d260b1fc37a","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"313","69a1c0e8-ea1c-444f4b-beb9b6-e97a638bd04f","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"324","d6cea2f0-7e21-4a4e41-95929c-367cb5ed201f","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"335","1ba9e785-c8b6-454d4b-a3acaa-37d0b9a15fc4","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"339","d04eb79c-98f4-4c4a4b-989490-015db483279c","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"340","e1c5d620-d76e-494547-909c9d-381c90b65a7e","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"341","f5b42068-f92b-424c43-99989f-6e3fda98c075","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"346","7cfe382d-5619-4b4a4f-9e9997-2b1436fd08a7","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"376","b6e3cf29-d486-444849-838a84-963cd58b42e0","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"407","fc478196-539c-43414f-828683-18eb2d57f436","a1_1","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"421","7fac9438-e308-474a46-919e99-8fe53b4d672a","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"422","53bf074d-816a-464a48-808d8b-57e96cf30421","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"430","2d5b408f-d3c8-424346-babdbb-d7b069f8ac2e","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"442","b19d36e2-2da6-4a4041-a4a1a6-132a6e5d7c09","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"443","c9813aed-bfe3-494b46-979491-7a9b28016d34","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"446","01ceb53f-42df-454c4d-929890-b93e208f145a","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"449","0bc2e14a-8415-4d444b-ada4a0-cf7269e05813","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"452","170945db-0dfc-424a49-858f89-4f7bc8139e6a","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"461","ba63814c-81d2-444b41-b7bbb1-f1597db8a640","a1_2","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"475","a8fc4652-d560-45414c-959f99-4839e7dbf61c","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"479","b749106d-b408-45404d-beb6b5-e6a3cb2f1547","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"480","bd671f53-adc6-4e4749-bebab9-d47e1a6038b9","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"481","d1f725a9-8057-484347-828783-0513f87eb2c9","a1_5","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"482","afe93c57-2038-4f4748-9b939e-ce7532d80baf","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"489","2e1d40ab-ab92-4c474b-898e8b-483b6dca1ef2","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"494","0c79ae62-bf7c-4b414d-bcbfb2-8a63102ef5db","a1_3","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"495","17b34a86-d853-40434c-858f86-e35c2bad8146","a1_4","governorate_pcode","district_pcode","Invalid combination between C9_DisplacementStatus (short term mouvement intentions) & C10_DisplacmentStatus (long term mouvement intentions)",1
+"1035","f8d325c0-56e4-424149-89808d-58324b96dae7","a1_2","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1069","06ce4b78-ea8d-41484e-a1a0a7-df1547b06e8a","a1_2","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1103","c96d173a-8cfa-4c4a4f-909798-2dec05a87139","a1_3","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1187","465fb739-e73c-474248-b9bcb8-46cb905d8a27","a1_3","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1188","1874b59f-5893-4c4a47-a7a0ad-9cb26e4d07a5","a1_4","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1240","d160c724-9168-484f47-beb2b4-613f52daec74","a1_5","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1246","97b5ec61-0519-4a4449-a3abad-3d9c4f158e76","a1_2","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1260","570e621a-f5da-474b42-beb5b1-bacd519087f4","a1_5","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1266","01f85ce4-e1ba-4a4740-818085-758d6a01cf32","a1_5","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1267","9eaf147c-5d27-454449-929994-c8fa2704319d","a1_2","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1268","fca5db26-be81-4d4c48-8d8682-c42bd08a3567","a1_1","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1270","7a52936d-4f2d-434b47-bdbbb2-8901cfa2be64","a1_3","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1368","679ae380-1b7c-414246-b3b8be-4a52c803b6e7","a1_5","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1383","4b10e68d-2c38-454e42-a3a1aa-70236c549a1b","a1_2","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1397","34970f26-fc95-464a49-9f9e98-d73e6b84102a","a1_3","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1401","a24fedb3-85ed-464d48-959f98-cd6579a3208b","a1_3","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1412","97ba2613-b84d-4b494e-9c959f-7f28bc30694e","a1_2","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1414","0ab1e768-1a6d-414448-b4b8bb-254d1f76c098","a1_5","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1445","0cbf2893-2c85-4b4741-919f9c-236b9adf7e15","a1_1","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1467","ca61305b-f457-40494f-888a85-1c38d407a6e9","a1_5","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1480","bd671f53-adc6-4e4749-bebab9-d47e1a6038b9","a1_4","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1500","c7d42813-4871-424d4b-b9b0b7-32f6ea58b490","a1_3","governorate_pcode","district_pcode","The second ranked most important ""priority needs"" is equal to the one ranked first",1
+"1515","f68bc932-de23-4e434c-a8afae-1e7a5b8cd2f4","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1535","f8d325c0-56e4-424149-89808d-58324b96dae7","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1543","841dc2a6-25fc-424346-a0a8a7-72bd93a8541f","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1552","c0fab49e-19b3-454446-aca5aa-7d369cba02f1","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1596","d819b5c7-bfa2-44464d-b3b8bd-ceb38014d62f","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1604","0e948d6b-45c1-494a48-82898e-9eba6c245180","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1621","b8054e2c-0ace-4a4643-b2bab1-9723fa416e8d","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1628","c4950381-3f95-414b46-adaaa2-32cb58640a91","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1632","903816fd-8452-4b4442-afa4ad-1a5e7346d02b","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1670","794c012e-5b86-45464d-898580-5cae48bd2730","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1687","465fb739-e73c-474248-b9bcb8-46cb905d8a27","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1710","f0b15d8e-5c19-404f4a-bcb5b2-169cd0ba85e7","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1717","13b74c25-a6b2-454b44-b8b3ba-b7da896c1e23","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1748","61bc9457-3165-494b4c-b5b3b7-372c9fbe80da","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1750","3b50a47e-eb57-4b4246-a5a2a9-ca0ef24d3869","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1756","1524f073-b089-4c494a-bfb6b7-bca9e248610d","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1792","8b1fa57d-fa90-4f4244-bcb1b6-68ecf70d9453","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1798","50c3862a-f027-414648-92909a-afd85c13be09","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1800","5a1fd94e-237a-4b414d-afaca8-149af35820dc","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1856","8c195f34-e5da-434147-848682-8d4e6f5bac73","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1862","2a80649b-5a37-484d4b-bcbdb3-6082a7b5d9ce","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1905","f6a83bd7-601a-43464c-999692-5824e093adbf","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1909","2859e706-2695-4f4d47-828c8d-81f2036e5b79","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"1929","509ea8d7-6ef8-464a41-8e8a89-4a39170e258c","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked second",1
+"2011","dcfe0451-8c94-444048-a7aaa4-86f4d9c0b23e","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2031","df6a2e75-fd2b-484c4b-b1b6b9-7a46e9d30fcb","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2035","f8d325c0-56e4-424149-89808d-58324b96dae7","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2046","ac61efd4-50d8-4b434d-a6aead-c582fe70614a","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2055","4297adf6-9532-4d4e44-818b84-14068e375fb2","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2057","fd062543-c506-404e49-a3afa8-cf86403d571a","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2060","b13f4652-89ae-4a4d48-b3bcbd-e14f20c89675","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2091","ba8cf9d1-029f-4e4a41-95949e-e3157db2ca60","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2093","574df2eb-c082-49454d-b4b5be-5690fd8eba37","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2114","6f2b481d-e97f-4a414c-808a84-2f8c59137de0","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2130","814602d3-2047-474945-a6aca2-6279ad304b1e","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2175","e7b32c05-0cfd-42434e-b3b8ba-6c0821d45b9e","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2187","465fb739-e73c-474248-b9bcb8-46cb905d8a27","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2192","56c39b1f-61b7-464741-8f898e-834ba0c9ef52","a1_2","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2200","c319268a-a160-494645-a7aaa3-d9ec7580f436","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2222","f6a5134d-9371-484c40-9c969e-763bdcf58421","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2236","58d74ce0-164a-4c4041-bbb4b6-a34618e5dc0f","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2244","23a9b57c-f4ab-404144-afacaa-0ab41fecd826","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2245","acdf9125-9621-494a4f-8f888b-f40ac92635d7","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2257","f8615ad9-32b6-4f4449-80838b-f8da7c532e6b","a1_4","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2276","3b89d724-fe02-494b48-9a9e9d-a613c825f97b","a1_5","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2283","6d32fcb1-3e46-414746-b5babc-2458ce16a0f7","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2374","0316c85f-589c-434548-b2babd-0289fadcb154","a1_1","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2386","fae985c2-56e2-43494b-b6b9bf-7f29561bde3c","a1_3","governorate_pcode","district_pcode","The third ranked most important ""priority needs"" is equal to the one ranked first",1
+"2501","b189c6a4-7508-414644-8a8e80-9d6b72fa8503","a1_1","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2543","841dc2a6-25fc-424346-a0a8a7-72bd93a8541f","a1_4","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2559","d6ae8043-4f98-4f4345-bdb9b0-46cf5327d108","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2564","61983ab4-efa1-4a4347-bcbbbd-a180c2d7e3f5","a1_2","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2578","64b21dfe-716e-47494f-9d9992-80f7c65eb12a","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2594","b5d73af9-2a09-4f4c45-8b8188-4cd960728f1e","a1_2","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2602","40859def-4689-484740-b2bab1-2f759ba10d36","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2603","c96d173a-8cfa-4c4a4f-909798-2dec05a87139","a1_3","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2664","92e681b5-7cd9-404544-9f9397-b49adc7f0285","a1_4","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2666","fe92a486-d4ea-48464e-bcb4bb-21084c6e3bfa","a1_3","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2712","23e84d65-f8a3-49424b-99949e-1a09d28547c3","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2717","13b74c25-a6b2-454b44-b8b3ba-b7da896c1e23","a1_3","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2753","a0c7269e-d872-494147-bfb9b4-c750b3af68e2","a1_4","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2783","6d32fcb1-3e46-414746-b5babc-2458ce16a0f7","a1_3","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2786","8e52a1cd-19f3-454b41-8a8185-c9710fe468ba","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2794","d48cf053-a901-48464e-8e898d-da42cb3586f1","a1_2","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2808","19c53df0-685c-434e42-b4babc-0e2359b47a16","a1_2","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2819","f18349ec-1928-48474a-b3b5b4-42fe5817cb09","a1_2","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2823","3de1bca6-e95a-434b48-b8b6bd-b3a41d9f78c6","a1_2","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2847","97e150af-8246-41484f-8b888d-e3d620f5c71b","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2872","971c0f35-6fde-48404b-898086-8d3ce7041a65","a1_4","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2890","0b1ea9f2-8f05-444f41-838f88-e9657fd0283c","a1_4","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2893","d43c81ab-0e5d-4b4e48-aba6a4-ac2ed95403b8","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2906","129f86c5-fae6-4c4f4b-a4ada7-6df3a84720e9","a1_4","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2907","fc478196-539c-43414f-828683-18eb2d57f436","a1_1","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2917","b6f21ad9-2709-44404a-9a949b-dfea9b871302","a1_1","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"2984","dca52013-32ac-4f4840-b0bbbd-67e3285c04df","a1_5","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"3000","c7d42813-4871-424d4b-b9b0b7-32f6ea58b490","a1_3","governorate_pcode","district_pcode","Invalid combination between F3_WASH (type of water source) and F6_WASH (time needed to collect water)",1
+"3020","e87d2c9a-3ca9-4e4942-aba8a6-edc615af29b3","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3023","4029da87-b123-434748-8c868f-1e286a97f405","a1_1","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3028","817dacf9-41f6-464243-a4a1a6-198bed762fc0","a1_4","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3046","ac61efd4-50d8-4b434d-a6aead-c582fe70614a","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3059","d6ae8043-4f98-4f4345-bdb9b0-46cf5327d108","a1_5","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3062","fe609123-0bca-404e48-9e9b9f-80f6a591b42c","a1_5","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3087","7e136bfc-e0a3-434642-999c92-567ca824bfe0","a1_2","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3142","b9e1c23d-7b94-4a4447-8b8089-dea657c40b28","a1_1","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3166","fe92a486-d4ea-48464e-bcb4bb-21084c6e3bfa","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3183","14627d0b-ef01-4e4046-91949a-069e2d58fa73","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3187","465fb739-e73c-474248-b9bcb8-46cb905d8a27","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3219","26dc071e-07ae-4c4f44-9c9a97-2fbed584c069","a1_1","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3224","3ebfc086-8f70-4b474e-ada6aa-c81fad097be2","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3228","2f6e9478-50c9-494046-9c9192-0158bda9e3c7","a1_4","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3251","960b5324-59e6-434f44-b5b3b1-0f478a36cd95","a1_1","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3255","8fd54be6-9d5c-4c4847-80888b-49c6df710b5e","a1_1","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3269","7cbe0afd-9074-4b414c-b9bbb5-13cb524d6fa7","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3281","c1f73850-ce71-494241-888286-963287a5d14e","a1_5","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3283","6d32fcb1-3e46-414746-b5babc-2458ce16a0f7","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3322","0f21e973-391f-4c434f-a6a3af-b2f6cea58049","a1_4","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3323","3de1bca6-e95a-434b48-b8b6bd-b3a41d9f78c6","a1_2","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3332","ad067e2f-9e7f-494045-939d99-65e73490afbc","a1_4","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3334","f3496d8b-72f3-41464d-96989c-78260a5d93cf","a1_2","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3342","bf7c912a-8a61-434a4f-868f87-fe2d04851c7b","a1_5","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3349","5cd9f3b7-0243-494a45-8e8c8a-05e973dba621","a1_2","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3383","4b10e68d-2c38-454e42-a3a1aa-70236c549a1b","a1_2","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3397","34970f26-fc95-464a49-9f9e98-d73e6b84102a","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3423","52c7fa48-4035-434e44-8f8389-5f0864b17ced","a1_1","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3442","b19d36e2-2da6-4a4041-a4a1a6-132a6e5d7c09","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3494","0c79ae62-bf7c-4b414d-bcbfb2-8a63102ef5db","a1_3","governorate_pcode","district_pcode","Invalid combination between B724_SectorEmployment (type of employment) and J10_Livelihood (most important livelihood need)",1
+"3509","549a32d0-c3d4-404147-abaea9-ea74381cf290","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3513","59a07e14-f614-404842-929097-65a41dc09b83","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3519","e21a0f34-a857-484c41-aea7a0-f54169ab73c0","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3521","fe3297c5-1287-4f4c48-9f929c-fe024579cbd6","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3533","5796283b-0749-4b4c4e-888d8e-96ce0df51a83","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3535","f8d325c0-56e4-424149-89808d-58324b96dae7","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3537","7234bc69-dc98-434742-868388-fceb16d25347","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3538","2ef8a504-b127-4a4640-89848f-ade417bf906c","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3539","157c906d-7ae1-454b40-a7aea8-b419fa2e508d","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3563","a83d92ef-6204-44494c-979093-0a8cb529f173","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3564","61983ab4-efa1-4a4347-bcbbbd-a180c2d7e3f5","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3566","28e5ad03-ce80-4e4744-a4aaa3-b46fe07c5da8","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3567","e841cb6a-5726-45484b-beb0b6-641dc9a2eb53","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3568","06c148e9-d6f0-42494a-888283-d63c281f45ba","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3569","06ce4b78-ea8d-41484e-a1a0a7-df1547b06e8a","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3570","d6bc0453-0a18-424145-bdbfb4-518be34f0729","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3571","ce58b320-bfe3-4b4140-848580-3f15089d7ac4","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3574","a57ecb30-f4d1-434647-9e9b9f-480eb6c9275d","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3580","92ae16dc-7ad0-474842-bbb7b6-1d3ca4bf098e","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3583","d87e01ca-3d90-464a4c-98999f-b3a27d85e1c0","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3587","7e136bfc-e0a3-434642-999c92-567ca824bfe0","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3594","b5d73af9-2a09-4f4c45-8b8188-4cd960728f1e","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3596","d819b5c7-bfa2-44464d-b3b8bd-ceb38014d62f","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3598","4a1fc7eb-cb71-424648-bfbcba-ec364fb021d8","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3599","c59ae04b-79f0-46474b-beb4b9-9b4236c5a871","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3611","4315e8fa-3e2c-464f4a-808e8f-d327f0bac645","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3612","a0c5eb41-bdca-454d49-9f9c97-24a36c0e8df7","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3616","3f9215b8-527c-4c4e49-80878f-8a265c4fbed0","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3622","9ab3f876-8e65-484f44-b2b7bb-6ecab47d3185","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3623","69b5fd08-48d2-4c4b4e-bcb9be-8091eb34c52d","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3631","4b036182-f210-454f40-818f85-2e41a5b698df","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3633","6be70d1f-86e0-4a4845-888389-cd14738f29b0","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3634","b7f96d1e-40bc-424645-808384-57d8c619ab32","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3643","c6af750b-f2ba-464942-b9b7bf-5df3b4ca8029","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3646","7bfd2e4c-1ed8-4a4049-8c8b86-8205f1b467d9","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3647","2570461d-5c3b-4e4d4b-989499-a4632be091c8","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3661","935e06d2-c476-494744-a2ada9-ef5ad06c17b3","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3663","4e036785-6e1d-434440-898586-7fd3e1984ac6","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3680","a187e906-1fc3-434c41-9a9297-a681943fe752","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3692","56c39b1f-61b7-464741-8f898e-834ba0c9ef52","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3696","a30b16ec-36b1-484745-a0a6a8-d6cb5f8239e7","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3721","e89f0753-f713-424e4f-babdb7-fbe9ad185027","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3725","8ae61059-e7d8-4a4346-858682-ef8c0794ab2d","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3726","e3c17485-93a0-424540-868d8a-0fb924e67dca","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3727","9b37dfa6-58b6-444c4f-858381-c97e60348adb","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3733","48cea15b-a197-4c4643-979194-a1567c8d2fb4","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3735","70812b9c-bac4-4d4940-8f8683-6413bc0de2f7","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3746","97b5ec61-0519-4a4449-a3abad-3d9c4f158e76","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3748","61bc9457-3165-494b4c-b5b3b7-372c9fbe80da","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3758","7dce3860-68a4-494a44-acadae-7d5328a1f0b9","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3764","8390a45c-4867-444640-bebabf-1a8c3d465fe9","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3767","9eaf147c-5d27-454449-929994-c8fa2704319d","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3773","536f2d41-a064-42414a-a9a0a6-769d2b08e13f","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3775","ed31c54b-2861-42464d-808f8b-7a32159ef0bd","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3785","f18dea2b-752c-464f48-aaada5-6489ebf7c50a","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3789","586de74c-94ef-474544-afa4a1-bf478d9321e5","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3790","15306d8c-6ebc-414448-949a96-4021bea6d79c","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3792","8b1fa57d-fa90-4f4244-bcb1b6-68ecf70d9453","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3793","de841af5-95d1-4c4446-959497-83526cf970e1","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3794","d48cf053-a901-48464e-8e898d-da42cb3586f1","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3795","c75b346a-4590-464f4d-a6aaa4-71c65b293afe","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3800","5a1fd94e-237a-4b414d-afaca8-149af35820dc","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3801","e4a62cf1-71de-4c464e-9f9e9b-2c6591e47bad","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3807","fa350e14-1bf3-4b4842-979299-20f39cbe51d4","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3808","19c53df0-685c-434e42-b4babc-0e2359b47a16","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3814","b0348a9e-09f7-4d4f40-aca4a3-4c8be56120d7","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3815","03729c56-7531-424c40-a4a8ab-8ae795bc0421","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3817","f30ac9e1-dc20-434049-8a8782-c2485e31b906","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3818","c964fe8d-168f-4a464e-a2afa0-7e529b348dca","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3819","f18349ec-1928-48474a-b3b5b4-42fe5817cb09","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3823","3de1bca6-e95a-434b48-b8b6bd-b3a41d9f78c6","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3826","ef14385c-1c7a-41464f-a9a6a4-209be8c4167d","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3829","e64a93f8-a5b8-4b444d-878b8a-832e6c4017fd","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3834","f3496d8b-72f3-41464d-96989c-78260a5d93cf","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3836","a5b68f2c-7928-46484d-9e9991-4c2f06157e38","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3839","d04eb79c-98f4-4c4a4b-989490-015db483279c","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3844","63af8941-dc14-45414a-9a959f-34cfa5be0789","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3845","cdeb1f67-9df8-4d4a4b-b8b5bd-69e37d42c058","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3846","7cfe382d-5619-4b4a4f-9e9997-2b1436fd08a7","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3849","5cd9f3b7-0243-494a45-8e8c8a-05e973dba621","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3853","2db0498f-d25c-4b414a-a0a1a7-1f68cb09d24e","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3856","8c195f34-e5da-434147-848682-8d4e6f5bac73","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3860","c81240f6-d207-454f4a-888d8f-0e78b3df25c9","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3867","6efd2c50-b5e6-414049-bab8b2-4b6e831cad7f","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3869","71e5c0a4-9fd3-424643-b8b1ba-a72bc6394e80","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3882","5d901768-9e02-4c4f46-8c8386-b54e0789a21c","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3883","4b10e68d-2c38-454e42-a3a1aa-70236c549a1b","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3888","78cbd103-6c71-404f4b-a4afa3-87406f3dc251","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3909","2859e706-2695-4f4d47-828c8d-81f2036e5b79","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3911","73c9bfd6-7523-4a404b-a5a9a2-5e8b3a9fc7d2","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3912","97ba2613-b84d-4b494e-9c959f-7f28bc30694e","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3924","2d019b54-f9bd-434145-aaaca6-59e36d0c417b","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3939","f0634d58-1673-444b4f-b5b0b6-27b31dfae940","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3948","e0981745-7daf-4a4145-909c91-e14f0869325a","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3949","0bc2e14a-8415-4d444b-ada4a0-cf7269e05813","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3952","170945db-0dfc-424a49-858f89-4f7bc8139e6a","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3953","a8694bc3-d80f-464044-bbbfb9-1ed4a67cb95f","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3954","69e37cfb-f43c-404f42-9a989b-1708d623e5af","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3955","34a2709e-68e1-404447-9f989e-dcba65230f8e","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3960","04932ef6-f750-4d454f-919b99-273a6fb84e91","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3961","ba63814c-81d2-444b41-b7bbb1-f1597db8a640","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3973","7e3af8b5-723d-4d4448-a2a0a6-d213456098fb","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3985","a362e1df-fe05-404548-878489-673e82d5f10a","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3991","4e0768af-0243-4a474c-a5aea7-3e9c247a61bd","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3992","1e572fa8-96fd-46444d-858e84-17a2fde389c5","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"3993","f25ba098-3e79-404b4f-a2a9ad-bd50fc397a8e","a1_2","governorate_pcode","district_pcode","Invalid combinatin between A1_Metadata (type of displacement) and B2_Demographics (nationality)",1
+"4524","57b8d6af-ed86-4f4844-848087-4a67d31c92b0","a1_1","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4544","6a8d7b23-ec0d-4e4d46-808f86-967fb32cd841","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4567","e841cb6a-5726-45484b-beb0b6-641dc9a2eb53","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4569","06ce4b78-ea8d-41484e-a1a0a7-df1547b06e8a","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4579","6b91df58-1a89-48494f-848285-a29ec3856b01","a1_1","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4592","2fd05c3b-18da-404549-a3a6a5-12af5e804367","a1_1","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4626","c23941f7-b9e6-4e4844-9b9499-3076ef8dab59","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4639","7896d0a2-1fe9-444240-838f8b-89d36704f5ec","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4727","9b37dfa6-58b6-444c4f-858381-c97e60348adb","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4741","c2f3e695-78e4-46414c-b9bab1-8f723ea16045","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4760","570e621a-f5da-474b42-beb5b1-bacd519087f4","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4773","536f2d41-a064-42414a-a9a0a6-769d2b08e13f","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4789","586de74c-94ef-474544-afa4a1-bf478d9321e5","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4818","c964fe8d-168f-4a464e-a2afa0-7e529b348dca","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4841","f5b42068-f92b-424c43-99989f-6e3fda98c075","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4877","493fd58e-73ac-424c41-b3b7be-3f15b6ced807","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4900","bad3026c-f97d-434140-a0adae-42f03561cbad","a1_1","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4903","bc42a376-c702-494d46-88828d-bf5e4189032d","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4917","b6f21ad9-2709-44404a-9a949b-dfea9b871302","a1_1","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"4940","c9fb50ed-6ac8-404843-9b919e-e631fb0a7d92","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter fully destroyed)",1
+"5050","ca3ef720-e042-49454e-888d85-fe0ac3d46785","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5094","b5d73af9-2a09-4f4c45-8b8188-4cd960728f1e","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5110","51f064ca-9abe-474e4b-b2bcb7-eab9357d6c82","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5133","6be70d1f-86e0-4a4845-888389-cd14738f29b0","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5136","b34af589-8bf3-4f4e4d-9b9890-694ad307e15b","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5154","2f14638b-4dfc-484b47-93989e-46eb893a027d","a1_1","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5158","e6d54f29-36ad-444f48-b5b2bf-62d58394efb0","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5166","fe92a486-d4ea-48464e-bcb4bb-21084c6e3bfa","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5194","2af3804c-2714-454041-828d87-c51b3f0729ad","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5276","3b89d724-fe02-494b48-9a9e9d-a613c825f97b","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5288","b08123d9-e3a2-45474b-9e9d93-820137facb4e","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5315","03729c56-7531-424c40-a4a8ab-8ae795bc0421","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5344","63af8941-dc14-45414a-9a959f-34cfa5be0789","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5349","5cd9f3b7-0243-494a45-8e8c8a-05e973dba621","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5356","8c195f34-e5da-434147-848682-8d4e6f5bac73","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5409","2859e706-2695-4f4d47-828c8d-81f2036e5b79","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5418","a9703861-78ef-46474a-80888b-4f925d7c3b0a","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5455","34a2709e-68e1-404447-9f989e-dcba65230f8e","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter partially damaged)",1
+"5573","853b609f-e086-4d4c49-979f90-7da134cbe089","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5585","053ac84d-0f91-4f4549-8c8e8f-abe70562398d","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5598","4a1fc7eb-cb71-424648-bfbcba-ec364fb021d8","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5615","3c872e94-dceb-454f4d-aeafa1-e8345f2b079c","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5664","92e681b5-7cd9-404544-9f9397-b49adc7f0285","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5725","8ae61059-e7d8-4a4346-858682-ef8c0794ab2d","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5794","d48cf053-a901-48464e-8e898d-da42cb3586f1","a1_2","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5866","a2e60f85-a48f-464441-959c98-0e5adb8f7c29","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5875","8416f3a2-6f24-4a4e49-adaba8-d10a4629e57c","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5894","90a152fe-0aec-454b49-a3aaad-5c4ea2fd6813","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5922","53bf074d-816a-464a48-808d8b-57e96cf30421","a1_4","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5934","8c60dba9-7a31-404d48-91969f-d874b5f312e0","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5972","8e057619-9c16-434647-8c8b83-679fa5b3e48d","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5978","5643207f-35e8-434540-8a898c-0793fa12b6d5","a1_3","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
+"5981","d1f725a9-8057-484347-828783-0513f87eb2c9","a1_5","governorate_pcode","district_pcode","Invalid combination E5_ShelterNFICCCM (shelter with no damage) and E1d_ShelterNFICCCM (Shelter minor damage)",1
