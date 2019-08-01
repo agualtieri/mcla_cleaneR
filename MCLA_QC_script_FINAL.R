@@ -1,7 +1,7 @@
 # MCLA Quality Check scritp
 # REACH Yemen - Data Unit
-# 10 July 2019 
-# V3
+# 31 July 2019 
+# V4
 
 # Reset workspace
 rm(list=ls())
@@ -29,6 +29,7 @@ library("reshape")
 source("./R/run_checks_from_dataframe.R")
 source("./R/batch_issues_check.R")
 source("./R/quality_check_log_to_long_format.R")
+source("./R/reformat_quality_checks.R")
 
 # Upload kobo tool and fill it with fake data
 # Load questionnaire 
@@ -75,10 +76,28 @@ write.csv(clog_separated, "output/clog_separated.csv")
 
 ## Using the splitstackshape package split the rows - unfortunately it allows for only one separator at a time
 
-clog_separated <- cSplit(cleaning_log_melt, "quality_checks", sep = "&", "long")
-clog_separated <- cSplit(clog_separated, "quality_checks", sep = "|", "long")
+#clog_separated1 <- cSplit(clog_separated, "quality_checks", sep = "&", "long")
+#clog_separated1 <- cSplit(clog_separated1, "quality_checks", sep = "|", "long")
 
-clog_separated$value <- NULL
+clog_reformatted <- reformat_quality_checks(clog_separated, "quality_checks", sep1 = "&", sep2 = "|")
+
+
+# Separate reformatted quality checks into three variable to allow for easier data cleaning
+clog_reformatted$qchecks_sep <- as_tibble(str_replace_all(clog_reformatted$quality_checks, "[= | !=]", " "))
+var_split <- str_split_fixed(clog_reformatted$qchecks_sep, " ", 2)
+
+cleaning_log_final <- cbind(clog_reformatted, var_split)
+cleaning_log_final <- reshape::rename(cleaning_log_final, c(V1 = "variable_name", V2 = "old_value"))
+
+cleaning_log_final$new_value <- NA
+
+cleaning_log_final$quality_checks <- NULL
+cleaning_log_final$qchecks_sep <- NULL
+
+
+
+
+
 
 
 
