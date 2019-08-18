@@ -1,7 +1,7 @@
 # MCLA Quality Check scritp
 # REACH Yemen - Data Unit
-# 31 July 2019 
-# V4
+# 18 August 2019
+# V5
 
 # Reset workspace
 rm(list=ls())
@@ -75,10 +75,6 @@ clog_separated$value <- NULL
 write.csv(clog_separated, "output/clog_separated.csv")
 
 ## Using the splitstackshape package split the rows - unfortunately it allows for only one separator at a time
-
-#clog_separated1 <- cSplit(clog_separated, "quality_checks", sep = "&", "long")
-#clog_separated1 <- cSplit(clog_separated1, "quality_checks", sep = "|", "long")
-
 clog_reformatted <- reformat_quality_checks(clog_separated, "quality_checks", sep1 = "&", sep2 = "|")
 
 
@@ -95,8 +91,18 @@ cleaning_log_final$quality_checks <- NULL
 cleaning_log_final$qchecks_sep <- NULL
 
 
+write.csv(cleaning_log_final, "output/cleaning_log_final_codes.csv")
 
+# Replace variable names to align them with paper form
+cleaning_log_final$variable_name <- questions$label..English[match(cleaning_log_final$variable_name, questions$name)]
 
+# Replace options codes to align them with paper form
+cleaning_log_final$old_value<- gsub("\"", "", cleaning_log_final$old_value)
+cleaning_log_final$old_value <- gsub("\ ", "", cleaning_log_final$old_value)
+
+cleaning_log_final$old_value <- choices$label..English[match(cleaning_log_final$old_value, choices$name)]
+
+write.csv(cleaning_log_final, "output/cleaning_log_final_desc.csv")
 
 
 
