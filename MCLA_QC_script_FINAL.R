@@ -13,6 +13,7 @@ rm(list=ls())
 # devtools::install_github("mabafaba/cleaninginspectoR", force = T)
 # devtools::install_github("mabafaba/reachR2", force = T)
 # devtools::install_github("mabafaba/hypegrammaR", force = T)
+# devtools::install_github("agualtieri/dataqualitycontrol", force = T)
 
 require("xlsformfill")
 require("cleaninginspectoR")
@@ -24,12 +25,7 @@ library("stringr")
 library("koboquest")
 library("splitstackshape")
 library("reshape")
-
-# Load necessary functions
-source("./R/run_checks_from_dataframe.R")
-source("./R/batch_issues_check.R")
-source("./R/quality_check_log_to_long_format.R")
-source("./R/reformat_quality_checks.R")
+library("dataqualitycontrol")
 
 # Upload kobo tool and fill it with fake data
 # Load questionnaire 
@@ -41,44 +37,51 @@ fake_dataset <- xlsform_fill(questions, choices, n = 500)
 fake_dataset <- fake_dataset[-c(636, 635, 634, 633, 632)]
 
 # Load dataset
-#dataset <- read.csv("data/main_dataset_v2.csv", stringsAsFactors = F)
+# --- TBD ----
 
-# Test Run
-# Load the conditions_list
+### Test Run
+# Load the conditions_list, produce the cleaning log and melt it into a readable form
 conditions_list <- read.csv("data/test_issues_sheet_v2.csv", stringsAsFactors = F)
 
 
-#data_cleaning_log %>% write.csv("test_run.csv") 
-#browseURL("test_run.csv")
-
-cleaning_log <- run_checks_from_dataframe(data = fake_dataset,
-                                          conditions_dataframe = conditions_list,
+cleaning_log <- run_checks_from_dataframe(df = fake_dataset,
+                                          conditions_df = conditions_list,
                                           condition.column = "conditions",
                                           test.name.column = "check_names",
                                           meta_to_keep = c("uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata"))
 
+write.csv(cleaning_log, "./output/cleaning_log.csv", row.names = F)
+browseURL("./output/cleaning_log.csv")
 
 cleaning_log_melt <- quality_checks_log_to_long_format(data = cleaning_log,
                                                        meta_not_to_transform = c("uuid", "A1_Metadata", "A2_Metadata", "A3_Metadata"))
 
-write.csv(cleaning_log_melt, "output/melted_clog.csv")
+#write.csv(cleaning_log_melt, "./output/melted_clog.csv", row.names = F)
+#browseURL("./output/melted_clog.csv")
 
 
-### Split aggregated transformed cleaning log into a one-row-per-variable
-
+### Split the melted cleaning log into a one row per variable format
 ## Add quality checks to dataframe
 cleaning_log_melt$quality_checks <- conditions_list$conditions[match(cleaning_log_melt$variable, conditions_list$check_names)]
 
 ## Rename column variable and delete the value column
 clog_separated <- reshape::rename(cleaning_log_melt, c(variable = "description"))
 clog_separated$value <- NULL
-write.csv(clog_separated, "output/clog_separated.csv")
 
-## Using the splitstackshape package split the rows - unfortunately it allows for only one separator at a time
-clog_reformatted <- reformat_quality_checks(clog_separated, "quality_checks", sep1 = "&", sep2 = "|")
+#write.csv(clog_separated, "./output/clog_separated.csv", row.names = F)
+#browseURL("./output/clog_separated.csv")
+
+## Separate reformatted quality checks into three variable to allow for easier data cleaning
+clog_reformatted <- separate_on_multiple(clog_separated, "quality_checks", sep1 = "&", sep2 = "|")
+
+clog_test <- separate_on_multiple(clog_reformatted, "quality_checks", sep1 = "=")
 
 
-# Separate reformatted quality checks into three variable to allow for easier data cleaning
+?separate_on_multiple
+
+
+
+
 clog_reformatted$qchecks_sep <- as_tibble(str_replace_all(clog_reformatted$quality_checks, "[= | !=]", " "))
 var_split <- str_split_fixed(clog_reformatted$qchecks_sep, " ", 2)
 
@@ -90,19 +93,20 @@ cleaning_log_final$new_value <- NA
 cleaning_log_final$quality_checks <- NULL
 cleaning_log_final$qchecks_sep <- NULL
 
+cleaning_log_final$old_value<- gsub("\"", "", cleaning_log_final$old_value)
+cleaning_log_final$old_value <- gsub("\ ", "", cleaning_log_final$old_value)
 
-write.csv(cleaning_log_final, "output/cleaning_log_final_codes.csv")
+write.csv(cleaning_log_final, "./output/cleaning_log_final_codes.csv", row.names = F)
+browseURL("./output/cleaning_log_final_codes.csv")
 
 # Replace variable names to align them with paper form
 cleaning_log_final$variable_name <- questions$label..English[match(cleaning_log_final$variable_name, questions$name)]
 
 # Replace options codes to align them with paper form
-cleaning_log_final$old_value<- gsub("\"", "", cleaning_log_final$old_value)
-cleaning_log_final$old_value <- gsub("\ ", "", cleaning_log_final$old_value)
-
 cleaning_log_final$old_value <- choices$label..English[match(cleaning_log_final$old_value, choices$name)]
 
-write.csv(cleaning_log_final, "output/cleaning_log_final_desc.csv")
+write.csv(cleaning_log_final, "./output/cleaning_log_final_desc.csv", row.names = F)
+browseURL("./output/cleaning_log_final_desc.csv")
 
 
 
