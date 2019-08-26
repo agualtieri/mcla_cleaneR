@@ -1,0 +1,334 @@
+Gov,District,GovPcode,DistrictPcode,NonDisplaced ,IDPs,Returnees,Refugees,Migrants
+Ibb,Al Qafr,YE11,YE1101,11,14,0,0,0
+Ibb,Yarim,YE11,YE1102,17,10,0,0,0
+Ibb,Ar Radmah,YE11,YE1103,18,15,25,0,0
+Ibb,An Nadirah,YE11,YE1104,18,18,0,0,0
+Ibb,Ash Sha'ir,YE11,YE1105,15,15,0,0,0
+Ibb,As Saddah,YE11,YE1106,20,15,22,0,0
+Ibb,Al Makhadir,YE11,YE1107,12,15,0,0,0
+Ibb,Hubaysh,YE11,YE1108,11,18,0,0,0
+Ibb,Hazm Al Udayn,YE11,YE1109,18,14,13,0,0
+Ibb,Far Al Udayn,YE11,YE1110,20,16,0,0,0
+Ibb,Al Udayn,YE11,YE1111,15,18,0,0,0
+Ibb,Jiblah,YE11,YE1112,12,11,0,0,0
+Ibb,Ba'dan,YE11,YE1113,12,18,10,0,0
+Ibb,As Sabrah,YE11,YE1114,18,15,15,0,0
+Ibb,As Sayyani,YE11,YE1115,11,18,0,0,0
+Ibb,Dhi As Sufal,YE11,YE1116,17,35,0,0,0
+Ibb,Mudhaykhirah,YE11,YE1117,18,18,0,0,0
+Ibb,Al Mashannah,YE11,YE1118,10,12,50,0,0
+Ibb,Al Dhihar,YE11,YE1119,16,38,43,68,0
+Ibb,Ibb,YE11,YE1120,15,18,0,0,0
+Abyan,Al Mahfad,YE12,YE1201,14,12,0,0,0
+Abyan,Mudiyah,YE12,YE1202,18,12,0,0,0
+Abyan,Jayshan,YE12,YE1203,12,12,0,0,0
+Abyan,Lawdar,YE12,YE1204,45,25,65,0,0
+Abyan,Sibah,YE12,YE1205,12,12,0,0,0
+Abyan,Rasad,YE12,YE1206,28,12,0,0,0
+Abyan,Sarar,YE12,YE1207,12,12,0,0,0
+Abyan,Al Wade'a,YE12,YE1208,12,12,10,0,0
+Abyan,Ahwar,YE12,YE1209,13,12,0,0,0
+Abyan,Zingibar,YE12,YE1210,13,54,0,20,0
+Abyan,Khanfir,YE12,YE1211,49,92,126,20,0
+Amanat Al Asimah,Old City,YE13,YE1301,20,15,0,0,0
+Amanat Al Asimah,Shu'aub,YE13,YE1302,29,12,18,8,0
+Amanat Al Asimah,Az'zal,YE13,YE1303,15,18,47,0,0
+Amanat Al Asimah,Assafi'yah,YE13,YE1304,14,13,0,27,0
+Amanat Al Asimah,As Sabain,YE13,YE1305,37,13,46,78,46
+Amanat Al Asimah,Al Wahdah,YE13,YE1306,14,15,19,22,0
+Amanat Al Asimah,At Tahrir,YE13,YE1307,20,15,0,0,0
+Amanat Al Asimah,Ma'ain,YE13,YE1308,39,45,0,23,0
+Amanat Al Asimah,Ath'thaorah,YE13,YE1309,24,11,18,15,0
+Amanat Al Asimah,Bani Al Harith,YE13,YE1310,27,106,78,0,0
+Al Bayda,Na'man,YE14,YE1401,12,12,0,0,12
+Al Bayda,Nati',YE14,YE1402,12,10,12,0,15
+Al Bayda,Maswarah,YE14,YE1403,12,12,0,0,0
+Al Bayda,As Sawma'ah,YE14,YE1404,17,12,0,0,0
+Al Bayda,Az Zahir,YE14,YE1405,12,12,14,0,0
+Al Bayda,Dhi Na'im,YE14,YE1406,12,11,0,0,0
+Al Bayda,At Taffah,YE14,YE1407,10,12,0,0,0
+Al Bayda,Mukayras,YE14,YE1408,16,13,58,0,0
+Al Bayda,Al Bayda City,YE14,YE1409,11,37,12,15,0
+Al Bayda,Al Bayda,YE14,YE1410,15,11,0,0,12
+Al Bayda,As Sawadiyah,YE14,YE1411,10,12,23,0,0
+Al Bayda,Radman Al Awad,YE14,YE1412,12,12,0,0,34
+Al Bayda,Rada',YE14,YE1413,21,30,0,36,56
+Al Bayda,Al Quraishyah,YE14,YE1414,11,13,56,27,0
+Al Bayda,Wald Rabi',YE14,YE1415,12,12,36,18,0
+Al Bayda,Al A'rsh,YE14,YE1416,17,15,0,56,10
+Al Bayda,Sabah,YE14,YE1417,10,12,0,18,15
+Al Bayda,Ar Ryashyyah,YE14,YE1418,12,15,0,21,0
+Al Bayda,Ash Sharyah,YE14,YE1419,13,15,0,0,0
+Al Bayda,Al Malagim,YE14,YE1420,11,12,0,12,0
+Taizz,Mawiyah,YE15,YE1501,12,18,0,0,47
+Taizz,Shara'b As Salam,YE15,YE1502,11,12,0,0,0
+Taizz,Shara'b Ar Rawnah,YE15,YE1503,13,11,0,0,0
+Taizz,Maqbanah,YE15,YE1504,17,14,12,0,0
+Taizz,Al  Mukha,YE15,YE1505,18,11,33,0,0
+Taizz,Dhubab,YE15,YE1506,12,20,18,0,0
+Taizz,Mawza,YE15,YE1507,15,18,18,0,0
+Taizz,Jabal Habashy,YE15,YE1508,11,20,15,0,0
+Taizz,Mashra'a Wa Hadnan,YE15,YE1509,12,15,15,0,0
+Taizz,Sabir Al Mawadim,YE15,YE1510,10,20,15,0,0
+Taizz,Al Misrakh,YE15,YE1511,20,18,11,0,0
+Taizz,Dimnat Khadir,YE15,YE1512,10,16,0,0,0
+Taizz,As Silw,YE15,YE1513,18,18,18,0,0
+Taizz,Ash Shamayatayn,YE15,YE1514,14,22,0,0,0
+Taizz,Al Wazi'iyah,YE15,YE1515,15,15,32,0,0
+Taizz,Hayfan,YE15,YE1516,18,20,0,0,0
+Taizz,Al Mudhaffar,YE15,YE1517,15,20,63,0,0
+Taizz,Al Qahirah,YE15,YE1518,13,18,26,0,0
+Taizz,Salh,YE15,YE1519,14,11,18,0,0
+Taizz,At Ta'iziyah,YE15,YE1520,18,30,0,0,0
+Taizz,Al Ma'afer,YE15,YE1521,10,11,0,0,0
+Taizz,Al Mawasit,YE15,YE1522,10,20,0,0,0
+Taizz,Sama,YE15,YE1523,15,18,0,0,0
+Al Jawf,Khabb wa ash Sha'af,YE16,YE1601,33,18,15,0,0
+Al Jawf,Al Humaydat,YE16,YE1602,10,15,15,0,0
+Al Jawf,Al Matammah,YE16,YE1603,14,12,12,0,0
+Al Jawf,Az Zahir,YE16,YE1604,12,25,15,0,0
+Al Jawf,Al Hazm,YE16,YE1605,16,30,79,0,0
+Al Jawf,Al Maton,YE16,YE1606,14,41,92,0,0
+Al Jawf,Al Maslub,YE16,YE1607,12,15,0,0,0
+Al Jawf,Al Ghayl,YE16,YE1608,12,18,15,0,0
+Al Jawf,Al Khalq,YE16,YE1609,12,15,0,0,0
+Al Jawf,Bart Al Anan,YE16,YE1610,30,17,12,0,0
+Al Jawf,Rajuzah,YE16,YE1611,39,18,0,0,0
+Al Jawf,Kharab Al Marashi,YE16,YE1612,32,36,0,0,0
+Hajjah,Bakil Al Mir,YE17,YE1701,12,20,0,0,0
+Hajjah,Haradh,YE17,YE1702,13,0,0,0,0
+Hajjah,Midi,YE17,YE1703,12,18,0,0,0
+Hajjah,Abs,YE17,YE1704,20,92,158,0,0
+Hajjah,Hayran,YE17,YE1705,12,0,0,0,0
+Hajjah,Mustaba,YE17,YE1706,18,26,0,0,0
+Hajjah,Kushar,YE17,YE1707,11,18,27,0,0
+Hajjah,Al Jamimah,YE17,YE1708,15,12,0,0,0
+Hajjah,Kuhlan Ash Sharaf,YE17,YE1709,18,15,0,0,0
+Hajjah,Aflah Ash Shawm,YE17,YE1710,18,15,12,0,0
+Hajjah,Khayran Al Muharraq,YE17,YE1711,10,20,12,0,0
+Hajjah,Aslem,YE17,YE1712,18,20,0,0,0
+Hajjah,Qafl Shamer,YE17,YE1713,18,15,12,0,0
+Hajjah,Aflah Al Yaman,YE17,YE1714,15,18,12,0,0
+Hajjah,Al Mahabishah,YE17,YE1715,18,18,0,0,0
+Hajjah,Al Miftah,YE17,YE1716,15,15,0,0,0
+Hajjah,Al Maghrabah,YE17,YE1717,18,12,0,0,0
+Hajjah,Kuhlan Affar,YE17,YE1718,15,12,0,0,0
+Hajjah,Sharas,YE17,YE1719,12,15,0,0,0
+Hajjah,Mabyan,YE17,YE1720,18,15,15,0,0
+Hajjah,Ash Shahil,YE17,YE1721,15,12,0,0,0
+Hajjah,Ku'aydinah,YE17,YE1722,10,18,0,0,0
+Hajjah,Wadhrah,YE17,YE1723,12,15,0,0,0
+Hajjah,Bani Qa'is,YE17,YE1724,18,15,0,0,0
+Hajjah,Ash Shaghadirah,YE17,YE1725,18,15,0,0,0
+Hajjah,Najrah,YE17,YE1726,15,15,0,0,0
+Hajjah,Bani Al Awam,YE17,YE1727,18,15,15,0,0
+Hajjah,Hajjah City,YE17,YE1728,18,19,0,0,0
+Hajjah,Hajjah,YE17,YE1729,15,12,0,0,0
+Hajjah,Washhah,YE17,YE1730,18,18,0,0,0
+Hajjah,Qarah,YE17,YE1731,15,18,0,0,0
+Al Hudaydah,Az Zuhrah,YE18,YE1801,14,20,0,0,0
+Al Hudaydah,Alluheyah,YE18,YE1802,11,20,0,0,0
+Al Hudaydah,Kamaran,YE18,YE1803,12,0,0,0,0
+Al Hudaydah,As Salif,YE18,YE1804,12,12,15,0,0
+Al Hudaydah,Al Munirah,YE18,YE1805,15,12,0,0,0
+Al Hudaydah,Al Qanawis,YE18,YE1806,20,18,0,0,0
+Al Hudaydah,Az Zaydiyah,YE18,YE1807,20,20,0,0,0
+Al Hudaydah,Al Mighlaf,YE18,YE1808,18,18,0,0,0
+Al Hudaydah,Ad Dahi,YE18,YE1809,18,15,0,0,0
+Al Hudaydah,Bajil,YE18,YE1810,17,17,0,0,0
+Al Hudaydah,Al Hajjaylah,YE18,YE1811,12,15,0,0,0
+Al Hudaydah,Bura,YE18,YE1812,18,18,0,0,0
+Al Hudaydah,Al Marawi'ah,YE18,YE1813,13,18,0,0,0
+Al Hudaydah,Ad Durayhimi,YE18,YE1814,18,18,0,0,0
+Al Hudaydah,As Sukhnah,YE18,YE1815,18,20,0,0,0
+Al Hudaydah,Al Mansuriyah,YE18,YE1816,18,14,0,0,0
+Al Hudaydah,Bayt Al Faqiah,YE18,YE1817,23,11,0,0,0
+Al Hudaydah,Jabal Ra's,YE18,YE1818,18,12,0,0,0
+Al Hudaydah,Hays,YE18,YE1819,18,20,59,0,0
+Al Hudaydah,Al Khawkhah,YE18,YE1820,15,15,0,75,0
+Al Hudaydah,Al Hawak,YE18,YE1821,15,15,12,12,0
+Al Hudaydah,Al Mina,YE18,YE1822,20,18,0,10,0
+Al Hudaydah,Al Hali,YE18,YE1823,17,15,124,34,0
+Al Hudaydah,Zabid,YE18,YE1824,16,29,0,0,0
+Al Hudaydah,Al Garrahi,YE18,YE1825,20,18,0,0,0
+Al Hudaydah,At Tuhayat,YE18,YE1826,18,12,15,0,0
+Hadramaut,Rumah,YE19,YE1901,12,12,0,0,0
+Hadramaut,Thamud,YE19,YE1902,12,10,0,0,0
+Hadramaut,Al Qaf,YE19,YE1903,12,0,0,0,0
+Hadramaut,Zamakh wa Manwakh,YE19,YE1904,10,0,0,0,0
+Hadramaut,Hagr As Sai'ar,YE19,YE1905,12,0,0,0,0
+Hadramaut,Al Abr,YE19,YE1906,12,45,0,0,0
+Hadramaut,Al Qatn,YE19,YE1907,19,12,0,0,0
+Hadramaut,Shibam,YE19,YE1908,11,12,0,0,0
+Hadramaut,Sah,YE19,YE1909,12,0,0,0,0
+Hadramaut,Sayun,YE19,YE1910,14,36,0,15,0
+Hadramaut,Tarim,YE19,YE1911,30,17,0,0,0
+Hadramaut,As Sawm,YE19,YE1912,12,0,0,0,0
+Hadramaut,Ar Raydah Wa Qusayar,YE19,YE1913,12,14,16,0,0
+Hadramaut,Ad Dis,YE19,YE1914,12,0,12,0,0
+Hadramaut,Ash Shihr,YE19,YE1915,23,12,48,15,0
+Hadramaut,Ghayl Bin Yamin,YE19,YE1916,15,0,0,0,0
+Hadramaut,Ghayl Ba Wazir,YE19,YE1917,12,12,12,18,0
+Hadramaut,Daw'an,YE19,YE1918,13,0,0,0,0
+Hadramaut,Wadi Al Ayn,YE19,YE1919,15,0,0,0,0
+Hadramaut,Rakhyah,YE19,YE1920,12,0,0,0,0
+Hadramaut,Amd,YE19,YE1921,12,0,0,0,0
+Hadramaut,Adh Dhlia'ah,YE19,YE1922,12,0,0,0,0
+Hadramaut,Yabuth,YE19,YE1923,12,0,0,0,0
+Hadramaut,Hajr,YE19,YE1924,15,12,0,0,0
+Hadramaut,Brom Mayfa,YE19,YE1925,12,12,82,0,0
+Hadramaut,Al Mukalla,YE19,YE1926,12,11,12,0,10
+Hadramaut,Al Mukalla City,YE19,YE1927,14,42,54,152,0
+Hadramaut,Huraidhah,YE19,YE1928,12,0,0,0,0
+Dhamar,Al Hada,YE20,YE2001,23,18,0,0,0
+Dhamar,Jahran,YE20,YE2002,15,23,0,0,0
+Dhamar,Jabal Ash sharq,YE20,YE2003,10,15,0,0,0
+Dhamar,Maghirib Ans,YE20,YE2004,18,15,0,0,0
+Dhamar,Utmah,YE20,YE2005,24,25,185,0,0
+Dhamar,Wusab Al Ali,YE20,YE2006,27,25,0,30,0
+Dhamar,Wusab As Safil,YE20,YE2007,24,47,0,0,0
+Dhamar,Dhamar City,YE20,YE2008,28,56,12,23,0
+Dhamar,Mayfa'at Anss,YE20,YE2009,11,15,0,0,0
+Dhamar,Anss,YE20,YE2010,19,15,0,0,10
+Dhamar,Dawran Aness,YE20,YE2011,20,11,0,0,0
+Dhamar,Al Manar,YE20,YE2012,18,15,0,0,0
+Shabwah,Dhar,YE21,YE2101,12,12,12,0,0
+Shabwah,Al Talh,YE21,YE2102,12,12,12,0,0
+Shabwah,Jardan,YE21,YE2103,12,12,0,0,0
+Shabwah,Arma,YE21,YE2104,12,0,0,0,0
+Shabwah,Usaylan,YE21,YE2105,15,61,15,38,0
+Shabwah,Ain,YE21,YE2106,12,11,12,0,0
+Shabwah,Bayhan,YE21,YE2107,19,26,12,0,0
+Shabwah,Merkhah Al Ulya,YE21,YE2108,17,12,0,0,0
+Shabwah,Merkhah As Sufla,YE21,YE2109,21,12,0,0,0
+Shabwah,Nisab,YE21,YE2110,17,12,15,0,0
+Shabwah,Hatib,YE21,YE2111,12,12,0,0,0
+Shabwah,As Said,YE21,YE2112,18,12,37,0,0
+Shabwah,Ataq,YE21,YE2113,12,40,105,0,0
+Shabwah,Habban,YE21,YE2114,15,12,0,0,0
+Shabwah,Ar Rawdah,YE21,YE2115,14,12,0,0,0
+Shabwah,Mayfa'a,YE21,YE2116,18,14,23,13,0
+Shabwah,Rudum,YE21,YE2117,11,13,18,0,0
+Sa'ada,Baqim,YE22,YE2201,15,18,14,0,15
+Sa'ada,Qatabir,YE22,YE2202,15,15,12,0,25
+Sa'ada,Monabbih,YE22,YE2203,17,18,12,0,163
+Sa'ada,Ghamr,YE22,YE2204,12,15,0,0,0
+Sa'ada,Razih,YE22,YE2205,20,12,14,0,0
+Sa'ada,Shada'a,YE22,YE2206,12,0,0,0,0
+Sa'ada,Al Dhaher,YE22,YE2207,12,15,11,0,0
+Sa'ada,Haydan,YE22,YE2208,19,11,35,0,0
+Sa'ada,Saqayn,YE22,YE2209,17,15,18,0,0
+Sa'ada,Majz,YE22,YE2210,21,18,14,0,0
+Sa'ada,Sahar,YE22,YE2211,41,55,20,0,0
+Sa'ada,As Safra,YE22,YE2212,16,21,18,0,0
+Sa'ada,Al Hashwah,YE22,YE2213,12,12,12,0,0
+Sa'ada,Kitaf wa Al Boqe'e,YE22,YE2214,14,20,12,0,0
+Sa'ada,Sa'adah,YE22,YE2215,17,24,75,0,0
+Sana'a,Hamdan,YE23,YE2301,20,84,17,0,0
+Sana'a,Arhab,YE23,YE2302,21,12,0,0,0
+Sana'a,Nihm,YE23,YE2303,15,15,0,0,0
+Sana'a,Bani Hushaysh,YE23,YE2304,17,15,0,0,0
+Sana'a,Sanhan,YE23,YE2305,19,51,134,14,0
+Sana'a,Bilad Ar Rus,YE23,YE2306,15,12,0,0,0
+Sana'a,Bani Matar,YE23,YE2307,24,0,18,0,0
+Sana'a,Al Haymah Ad Dakhiliyah,YE23,YE2308,20,12,0,0,0
+Sana'a,Al Haymah Al Kharijiyah,YE23,YE2309,14,12,0,0,0
+Sana'a,Manakhah,YE23,YE2310,19,11,0,0,0
+Sana'a,Sa'fan,YE23,YE2311,15,15,0,0,0
+Sana'a,Khwlan,YE23,YE2312,15,12,0,0,0
+Sana'a,Attyal,YE23,YE2313,15,12,0,0,0
+Sana'a,Bani Dhabyan,YE23,YE2314,12,12,0,0,0
+Sana'a,Al Husn,YE23,YE2315,15,12,0,0,0
+Sana'a,Jihanah,YE23,YE2316,12,15,0,0,0
+Aden,Dar Sad,YE24,YE2401,31,47,20,210,33
+Aden,Ash Shaikh Outhman,YE24,YE2402,39,30,0,0,47
+Aden,Al Mansura,YE24,YE2403,37,12,15,0,10
+Aden,Al Buraiqeh,YE24,YE2404,23,81,11,0,12
+Aden,Attawahi,YE24,YE2405,21,15,62,0,0
+Aden,Al Mualla,YE24,YE2406,19,12,49,0,0
+Aden,Craiter,YE24,YE2407,29,19,59,12,0
+Aden,Khur Maksar,YE24,YE2408,17,12,26,15,0
+Lahj,Al Had,YE25,YE2501,16,15,0,0,0
+Lahj,Yafa'a,YE25,YE2502,22,12,0,0,0
+Lahj,Al Maflahy,YE25,YE2503,12,12,0,0,0
+Lahj,Yahr,YE25,YE2504,11,12,0,0,0
+Lahj,Habil Jabr,YE25,YE2505,13,12,0,0,0
+Lahj,Halimayn,YE25,YE2506,15,12,0,0,0
+Lahj,Radfan,YE25,YE2507,13,12,0,0,0
+Lahj,Al Milah,YE25,YE2508,15,12,12,0,0
+Lahj,Al Musaymir,YE25,YE2509,15,12,15,0,0
+Lahj,Al Qabbaytah,YE25,YE2510,28,51,18,0,0
+Lahj,Tur Al Bahah,YE25,YE2511,14,12,15,0,0
+Lahj,Al Maqatirah,YE25,YE2512,16,26,0,0,0
+Lahj,Al Madaribah Wa Al Arah,YE25,YE2513,14,10,12,188,21
+Lahj,Al  Hawtah,YE25,YE2514,15,12,134,0,0
+Lahj,Tuban,YE25,YE2515,26,85,28,0,0
+Marib,Majzar,YE26,YE2601,11,20,133,12,0
+Marib,Raghwan,YE26,YE2602,12,18,0,0,0
+Marib,Medghal,YE26,YE2603,10,20,0,12,0
+Marib,Harib Al Qaramish,YE26,YE2604,12,18,15,0,0
+Marib,Bidbadah,YE26,YE2605,17,15,12,0,0
+Marib,Sirwah,YE26,YE2606,18,20,31,0,0
+Marib,Al Jubah,YE26,YE2607,20,18,0,12,0
+Marib,Rahabah,YE26,YE2608,12,15,0,0,0
+Marib,Harib,YE26,YE2609,32,18,0,0,0
+Marib,Mahliyah,YE26,YE2610,12,15,31,0,0
+Marib,Al Abdiyah,YE26,YE2611,12,20,0,12,0
+Marib,Marib City,YE26,YE2612,27,162,0,12,0
+Marib,Marib,YE26,YE2613,33,20,0,0,162
+Marib,Jabal Murad,YE26,YE2614,12,12,0,0,0
+Al Mahwit,Shibam Kawkaban,YE27,YE2701,17,22,130,0,0
+Al Mahwit,At Tawilah,YE27,YE2702,26,11,0,0,0
+Al Mahwit,Ar Rujum,YE27,YE2703,33,13,0,0,0
+Al Mahwit,Al Khabt,YE27,YE2704,28,36,0,0,0
+Al Mahwit,Milhan,YE27,YE2705,39,14,0,0,0
+Al Mahwit,Hufash,YE27,YE2706,17,17,0,0,0
+Al Mahwit,Bani Sa'd,YE27,YE2707,26,24,22,0,0
+Al Mahwit,Al Mahwait City,YE27,YE2708,12,25,0,0,0
+Al Mahwit,Al Mahwait,YE27,YE2709,22,48,0,0,0
+Al Maharah,Shahan,YE28,YE2801,12,0,0,0,0
+Al Maharah,Hat,YE28,YE2802,12,0,0,0,0
+Al Maharah,Hawf,YE28,YE2803,13,0,0,0,0
+Al Maharah,Al Ghaydah,YE28,YE2804,65,124,82,169,0
+Al Maharah,Man'ar,YE28,YE2805,13,0,15,0,0
+Al Maharah,Al Masilah,YE28,YE2806,27,27,83,0,0
+Al Maharah,Sayhut,YE28,YE2807,30,12,23,0,0
+Al Maharah,Qishn,YE28,YE2808,29,21,12,0,0
+Al Maharah,Huswain,YE28,YE2809,22,12,12,0,0
+Amran,Harf Sufyan,YE29,YE2901,11,13,0,8,0
+Amran,Huth,YE29,YE2902,12,18,29,0,0
+Amran,Al Ashah,YE29,YE2903,11,18,12,0,0
+Amran,Al Qaflah,YE29,YE2904,15,18,23,0,0
+Amran,Shaharah,YE29,YE2905,11,13,0,0,0
+Amran,Al Madan,YE29,YE2906,12,18,0,0,0
+Amran,Suwayr,YE29,YE2907,12,18,0,0,0
+Amran,Habur Zulaymah,YE29,YE2908,15,10,0,0,0
+Amran,Dhi Bin,YE29,YE2909,15,18,0,0,0
+Amran,Kharif,YE29,YE2910,11,18,0,0,0
+Amran,Raydah,YE29,YE2911,12,11,0,0,0
+Amran,Jabal Iyal Yazid,YE29,YE2912,21,19,15,0,0
+Amran,As Sudah,YE29,YE2913,15,18,0,0,0
+Amran,As Sawd,YE29,YE2914,12,18,0,0,0
+Amran,Amran,YE29,YE2915,24,51,79,0,0
+Amran,Maswar,YE29,YE2916,15,18,15,0,0
+Amran,Thula,YE29,YE2917,11,18,17,0,0
+Amran,Iyal Surayh,YE29,YE2918,13,18,46,0,0
+Amran,Khamir,YE29,YE2919,18,12,0,0,0
+Amran,Bani Suraim,YE29,YE2920,15,18,0,0,0
+Al Dhale'e,Juban,YE30,YE3001,19,12,0,0,0
+Al Dhale'e,Damt,YE30,YE3002,27,38,40,0,0
+Al Dhale'e,Qa'atabah,YE30,YE3003,42,43,24,25,0
+Al Dhale'e,Ash Shu'ayb,YE30,YE3004,18,12,0,0,0
+Al Dhale'e,Al Hussein,YE30,YE3005,17,14,47,0,0
+Al Dhale'e,Ad Dhale'e,YE30,YE3006,37,28,96,33,0
+Al Dhale'e,Jahaf,YE30,YE3007,11,19,12,0,0
+Al Dhale'e,Al Azariq,YE30,YE3008,18,21,0,0,0
+Al Dhale'e,Al Husha,YE30,YE3009,28,27,0,0,0
+Raymah,Bilad At Ta'am,YE31,YE3101,17,23,0,0,0
+Raymah,As Salafiyah,YE31,YE3102,40,30,0,0,0
+Raymah,Al Jabin,YE31,YE3103,45,39,0,0,0
+Raymah,Mazhar,YE31,YE3104,41,42,0,0,0
+Raymah,Kusmah,YE31,YE3105,38,17,0,0,0
+Raymah,Al Jafariyah,YE31,YE3106,35,61,0,0,0
+Socotra,Hidaybu,YE32,YE3201,179,120,104,0,0
+Socotra,Qulensya Wa Abd Al Kuri,YE32,YE3202,33,42,56,0,0
