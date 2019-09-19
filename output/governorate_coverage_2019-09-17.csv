@@ -1,0 +1,89 @@
+"governorate_code","governorate_name","pop_group","pop","response","coverage_percent"
+"YE11","Ibb","nondisplaced",445,2,0.45
+"YE12","Abyan","nondisplaced",235,7,2.98
+"YE13","Amanat Al Asimah","nondisplaced",250,3,1.2
+"YE14","Al Bayda","nondisplaced",340,2,0.59
+"YE15","Taizz","nondisplaced",475,4,0.84
+"YE16","Al Jawf","nondisplaced",255,4,1.57
+"YE17","Hajjah","nondisplaced",670,8,1.19
+"YE18","Al Hudaydah","nondisplaced",550,5,0.91
+"YE19","Hadramaut","nondisplaced",475,9,1.89
+"YE20","Dhamar","nondisplaced",285,5,1.75
+"YE21","Shabwah","nondisplaced",280,5,1.79
+"YE22","Sa'ada","nondisplaced",285,4,1.4
+"YE23","Sana'a","nondisplaced",315,5,1.59
+"YE24","Aden","nondisplaced",215,6,2.79
+"YE25","Lahj","nondisplaced",295,5,1.69
+"YE26","Marib","nondisplaced",260,4,1.54
+"YE27","Al Mahwit","nondisplaced",220,1,0.45
+"YE28","Al Maharah","nondisplaced",230,3,1.3
+"YE29","Amran","nondisplaced",380,7,1.84
+"YE30","Al Dhale'e","nondisplaced",225,3,1.33
+"YE31","Raymah","nondisplaced",215,3,1.4
+"YE32","Socotra","nondisplaced",215,5,2.33
+"YE11","Ibb","idps",470,8,1.7
+"YE12","Abyan","idps",290,4,1.38
+"YE13","Amanat Al Asimah","idps",325,3,0.92
+"YE14","Al Bayda","idps",350,4,1.14
+"YE15","Taizz","idps",545,5,0.92
+"YE16","Al Jawf","idps",300,2,0.67
+"YE17","Hajjah","idps",670,8,1.19
+"YE18","Al Hudaydah","idps",535,2,0.37
+"YE19","Hadramaut","idps",285,4,1.4
+"YE20","Dhamar","idps",325,6,1.85
+"YE21","Shabwah","idps",320,3,0.94
+"YE22","Sa'ada","idps",325,6,1.85
+"YE23","Sana'a","idps",385,4,1.04
+"YE24","Aden","idps",235,5,2.13
+"YE25","Lahj","idps",355,2,0.56
+"YE26","Marib","idps",455,1,0.22
+"YE27","Al Mahwit","idps",220,5,2.27
+"YE28","Al Maharah","idps",200,3,1.5
+"YE29","Amran","idps",500,4,0.8
+"YE30","Al Dhale'e","idps",220,9,4.09
+"YE31","Raymah","idps",210,3,1.43
+"YE32","Socotra","idps",160,3,1.88
+"YE11","Ibb","returnees",185,3,1.62
+"YE12","Abyan","returnees",205,5,2.44
+"YE13","Amanat Al Asimah","returnees",235,2,0.85
+"YE14","Al Bayda","returnees",220,6,2.73
+"YE15","Taizz","returnees",350,2,0.57
+"YE16","Al Jawf","returnees",285,7,2.46
+"YE17","Hajjah","returnees",280,4,1.43
+"YE18","Al Hudaydah","returnees",240,3,1.25
+"YE19","Hadramaut","returnees",260,4,1.54
+"YE20","Dhamar","returnees",200,3,1.5
+"YE21","Shabwah","returnees",280,3,1.07
+"YE22","Sa'ada","returnees",325,7,2.15
+"YE23","Sana'a","returnees",170,4,2.35
+"YE24","Aden","returnees",265,4,1.51
+"YE25","Lahj","returnees",260,3,1.15
+"YE26","Marib","returnees",230,6,2.61
+"YE27","Al Mahwit","returnees",150,4,2.67
+"YE28","Al Maharah","returnees",240,6,2.5
+"YE29","Amran","returnees",250,5,2
+"YE30","Al Dhale'e","returnees",220,3,1.36
+"YE32","Socotra","returnees",145,6,4.14
+"YE11","Ibb","refugees",65,6,9.23
+"YE12","Abyan","refugees",40,4,10
+"YE13","Amanat Al Asimah","refugees",185,6,3.24
+"YE14","Al Bayda","refugees",20,2,10
+"YE18","Al Hudaydah","refugees",145,3,2.07
+"YE19","Hadramaut","refugees",225,7,3.11
+"YE20","Dhamar","refugees",15,3,20
+"YE21","Shabwah","refugees",55,7,12.73
+"YE23","Sana'a","refugees",15,7,46.67
+"YE24","Aden","refugees",245,4,1.63
+"YE25","Lahj","refugees",190,2,1.05
+"YE26","Marib","refugees",75,6,8
+"YE28","Al Maharah","refugees",170,6,3.53
+"YE30","Al Dhale'e","refugees",60,7,11.67
+"YE13","Amanat Al Asimah","migrants",45,2,4.44
+"YE14","Al Bayda","migrants",180,4,2.22
+"YE15","Taizz","migrants",45,5,11.11
+"YE19","Hadramaut","migrants",15,3,20
+"YE20","Dhamar","migrants",15,6,40
+"YE22","Sa'ada","migrants",235,5,2.13
+"YE24","Aden","migrants",110,11,10
+"YE25","Lahj","migrants",20,3,15
+"YE26","Marib","migrants",160,4,2.5
